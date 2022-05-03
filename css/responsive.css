@@ -1,0 +1,4256 @@
+/*
+	---------------------------------------------------
+	
+	           Styles for Mobile Devices
+
+	---------------------------------------------------
+*/
+
+
+/* 1350px (devices and browsers) */
+
+@media only screen and (min-width: 1260px) and (max-width: 1400px) {
+	/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+	.main-header {
+		width: 1230px;
+	}
+	.wrap-center {
+		width: 1230px;
+	}
+	.wrap-middle {
+		width: 1230px;
+	}
+	/* - Layout content - */
+	.wrap-fullwidth {
+		width: 1230px;
+	}
+	.wrap-fullwidth-bg {
+		width: 1230px;
+	}
+	.home-sidebar {
+		width: 900px;
+	}
+	/* .page-content */
+	.single-content {
+		width: 900px;
+		float: left;
+	}
+	.sidebar {
+		width: 300px;
+		float: left;
+		margin-left: 30px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Search -- */
+	.search-field {
+		width: 60px;
+	}
+	/* -- Top Authors -- */
+	ul.list-authors {
+		width: 1230px;
+	}
+	ul.list-authors li {
+		margin: 0 22px 0 0;
+	}
+	ul.list-authors li:nth-child(n+16) {
+		display: none;
+	}
+	ul.list-authors li div.tooltiptext {
+		width: 100px;
+		margin-left: -35px;
+	}
+	/* -- Popular Words -- */
+	.popular-words a:nth-child(n+10) {
+		display: none;
+	}
+	/* -- AnThemes Top Header Menu -- */
+	.ant-responsive-menu>li>a {
+		padding: 3px 12px 3px 12px !important;
+		margin-right: 3px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Blog Style -- */
+	ul.grid_list {
+		margin: 0 0 0 -25px;
+	}
+	ul.grid_list li {
+		width: 225px;
+		margin: 0 0 25px 25px;
+	}
+	ul.grid_list li img {
+		width: 225px;
+	}
+	ul.grid_list li div.grid-content {
+		padding: 30px 20px 25px 20px;
+	}
+	/* - Blog Style Ads - */
+	ul.grid_list li.homeadv,
+	ul.grid_list li.homeadv img {
+		width: 225px !important;
+		height: auto;
+		min-height: 238px;
+	}
+	/* -- Posts hover border -- */
+	.borderhover {
+		width: 225px;
+	}
+	/* -- Icons -- */
+	ul.meta-icons-home {
+		height: 24px;
+		float: right;
+		margin: 0 20px -24px 0;
+	}
+	ul.meta-icons-home li {
+		width: 24px;
+		height: 24px;
+		margin: 65px 0 0 5px;
+	}
+	/* - views- */
+	div.post-views {
+		padding: 11px 0 0 20px;
+	}
+	div.post-views i {
+		display: none;
+	}
+	/* -- Modul carousel -- */
+	.carousel {
+		width: 900px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list {
+		width: 930px;
+		height: 100px;
+		margin: 0 0 -30px -30px;
+	}
+	ul.big-list li {
+		width: 435px;
+		height: 185px;
+		margin: 0 0 30px 30px;
+	}
+	ul.big-list li img {
+		width: 200px;
+		height: 185px;
+	}
+	ul.big-list li .borderhover {
+		width: 200px;
+	}
+	ul.big-list li div.list-content {
+		margin-left: 200px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list-black {
+		width: 930px;
+		height: 100px;
+		margin: 0 0 -30px -30px;
+	}
+	ul.big-list-black li {
+		width: 435px;
+		height: 185px;
+		margin: 0 0 30px 30px;
+	}
+	ul.big-list-black li img {
+		width: 200px;
+		height: 185px;
+	}
+	ul.big-list-black li .borderhover {
+		width: 200px;
+	}
+	ul.big-list-black li div.list-content {
+		margin-right: 200px;
+	}
+	/* - Blog Style for modules - */
+	.home-sidebar ul.grid_list {
+		width: 920px;
+		height: auto;
+		margin: 0 0 -30px -20px;
+	}
+	.home-sidebar ul.grid_list li {
+		width: 210px;
+		margin: 0 0 30px 20px;
+	}
+	.home-sidebar ul.grid_list li img {
+		width: 210px;
+	}
+	.home-sidebar ul.grid_list li .borderhover {
+		width: 210px;
+	}
+	.home-sidebar ul.meta-icons-home {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Related articles single -- */
+	.single-related-wrap {
+		width: 900px;
+	}
+	/* - Top entry - */
+	.entry-top {
+		width: 800px;
+	}
+	/* -- Entry bottom -- */
+	.entry-bottom {
+		width: 800px;
+	}
+	/* -- Entry content style -- */
+	.entry {
+		width: 800px;
+	}
+	/* -- Responsive Images -- */
+	.entry iframe {
+		max-width: 800px;
+		height: 500px;
+		margin-left: 0px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Sidebar -- */
+	.sidebar .widget {
+		width: 250px;
+		padding: 40px 25px;
+		margin-bottom: 30px;
+	}
+	/* -- Banner widget 300px -- */
+	.img-300 {
+		width: 300px;
+		height: auto;
+		margin: -40px 0 -50px -25px;
+		padding: 0px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+	/* - Comments Form -- */
+	ul.comment {
+		width: 800px;
+	}
+	/* -- Comments -- */
+	.comments {
+		width: 800px;
+	}
+	/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Footer -- */
+	.wrap-footer-middle {
+		width: 1230px;
+	}
+	/* -- widgets -- */
+	footer .wrap-middle {
+		width: 1230px;
+	}
+	div.wrap-middle .widget {
+		margin: 0 25px 0 0 !important;
+	}
+	div.wrap-middle .one_fourth_last .widget {
+		margin-right: 0px !important;
+	}
+	footer .widget_text {
+		padding-top: 10px !important;
+	}
+}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media only screen and (min-width: 1025px) and (max-width: 1259px) {
+	/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* - Header - */
+	.main-header {
+		width: 980px;
+	}
+	.wrap-center {
+		width: 980px;
+	}
+	.wrap-middle {
+		width: 980px;
+	}
+	/* - Layout content - */
+	.wrap-fullwidth {
+		width: 980px;
+	}
+	.wrap-fullwidth-bg {
+		width: 980px;
+	}
+	.home-sidebar {
+		width: 980px;
+	}
+	/* .page-content */
+	.single-content {
+		width: 650px;
+	}
+	.sidebar {
+		width: 300px;
+		float: left;
+		margin-left: 30px;
+	}
+	.wrap-modules .sidebar {
+		width: 980px;
+		float: left;
+		margin-left: 0px;
+		-moz-column-gap: 40px;
+		-webkit-column-count: 3;
+		-webkit-column-gap: 40px;
+		column-count: 3;
+	}
+	.wrap-modules .sidebar .widget {
+		width: 250px;
+		display: inline-block;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Search -- */
+	.search-field {
+		width: 60px;
+	}
+	/* -- Top social icons -- */
+	.top-social {
+		display: none;
+	}
+	/* -- Top Authors -- */
+	ul.list-authors {
+		width: 980px;
+	}
+	ul.list-authors li {
+		margin: 0 21px 0 0;
+	}
+	ul.list-authors li:nth-child(n+13) {
+		display: none;
+	}
+	ul.list-authors li div.tooltiptext {
+		width: 100px;
+		margin-left: -35px;
+	}
+	/* -- AnThemes Top Header Menu -- */
+	.ant-responsive-menu {
+		margin-left: 15px;
+	}
+	/* -- Popular Words -- */
+	.popular-words a:nth-child(n+8) {
+		display: none;
+	}
+	/* -- AnThemes Top Header Menu -- */
+	.ant-responsive-menu>li>a {
+		padding: 3px 10px 3px 10px !important;
+		margin-right: 2px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Home content -- */
+	.home-content div.entry {
+		width: 90%;
+		margin: 40px 50px 0 50px !important;
+		padding: 30px 0 !important;
+	}
+	/* -- Blog Style -- */
+	ul.grid_list {
+		margin: 0 0 0 -25px;
+	}
+	ul.grid_list li {
+		width: 225px;
+		margin: 0 0 25px 25px;
+	}
+	ul.grid_list li img {
+		width: 225px;
+	}
+	ul.grid_list li div.grid-content {
+		padding: 30px 20px 25px 20px;
+	}
+	/* - Blog Style Ads - */
+	ul.grid_list li.homeadv,
+	ul.grid_list li.homeadv img {
+		width: 225px !important;
+		height: auto;
+		min-height: 238px;
+	}
+	/* -- Posts hover border -- */
+	.borderhover {
+		width: 225px;
+	}
+	/* -- Icons -- */
+	ul.meta-icons-home {
+		height: 24px;
+		float: right;
+		margin: 0 20px -24px 0;
+	}
+	ul.meta-icons-home li {
+		width: 24px;
+		height: 24px;
+		margin: 65px 0 0 5px;
+	}
+	/* - views- */
+	div.post-views {
+		padding: 11px 0 0 20px;
+	}
+	div.post-views i {
+		display: none;
+	}
+	/* -- Modul carousel -- */
+	.carousel {
+		width: 980px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list {
+		width: 1010px;
+		height: 100px;
+		margin: 0 0 -30px -30px;
+	}
+	ul.big-list li {
+		width: 475px;
+		height: 185px;
+		margin: 0 0 30px 30px;
+	}
+	ul.big-list li img {
+		width: 200px;
+		height: 185px;
+	}
+	ul.big-list li .borderhover {
+		width: 200px;
+	}
+	ul.big-list li div.list-content {
+		margin-left: 200px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list-black {
+		width: 1010px;
+		height: 100px;
+		margin: 0 0 -30px -30px;
+	}
+	ul.big-list-black li {
+		width: 475px;
+		height: 185px;
+		margin: 0 0 30px 30px;
+	}
+	ul.big-list-black li img {
+		width: 200px;
+		height: 185px;
+	}
+	ul.big-list-black li .borderhover {
+		width: 200px;
+	}
+	ul.big-list-black li div.list-content {
+		margin-right: 200px;
+	}
+	/* - Blog Style for modules - */
+	.home-sidebar ul.grid_list {
+		width: 1010px;
+		height: auto;
+		margin: 0 0 -30px -30px;
+	}
+	.home-sidebar ul.grid_list li {
+		width: 222.5px;
+		margin: 0 0 30px 30px;
+	}
+	.home-sidebar ul.grid_list li img {
+		width: 222.5px;
+	}
+	.home-sidebar ul.grid_list li .borderhover {
+		width: 222.5px;
+	}
+	.home-sidebar ul.meta-icons-home {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Related articles single -- */
+	.single-related-wrap {
+		width: 100%;
+	}
+	/* - Top entry - */
+	.entry-top {
+		width: 600px;
+	}
+	/* -- Entry content style -- */
+	.entry {
+		width: 600px;
+	}
+	/* -- Entry bottom -- */
+	.entry-bottom {
+		width: 600px;
+	}
+	/* -- Responsive Images -- */
+	.entry iframe {
+		max-width: 600px;
+		height: 350px;
+		margin-left: 0px;
+	}
+	/* Qefood Recipe Style */
+	.qefood-note {
+		width: 450px;
+		padding: 25px 50px 25px 50px;
+	}
+	.qefood-note img {
+		width: 150px;
+		height: 100px;
+		object-fit: cover;
+		float: right;
+		padding: 15px;
+		border: 1px solid #fafafa;
+		border-radius: 5px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Sidebar -- */
+	.sidebar .widget {
+		width: 250px;
+		padding: 40px 25px;
+		margin-bottom: 30px;
+	}
+	/* -- Meta in two columns -- */
+	.widget_meta ul {
+		width: 245;
+		margin-left: -25px;
+	}
+	.widget_meta li {
+		width: 85px;
+		margin-left: 25px;
+	}
+	/* -- Banner widget 300px -- */
+	.img-300 {
+		width: 300px;
+		height: auto;
+		margin: -40px 0 -50px -25px;
+		padding: 0px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+	ul.comment {
+		width: 600px;
+	}
+	/* -- Comments -- */
+	.comments {
+		width: 600px;
+	}
+	/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Footer -- */
+	.wrap-footer-middle {
+		width: 980px;
+	}
+	/* -- Footer Notice -- */
+	.wrap-footer-small {
+		width: 980px;
+	}
+	/* -- widgets -- */
+	footer .wrap-middle {
+		width: 980px;
+	}
+	footer .widget_text {
+		padding-top: 10px !important;
+	}
+	div.wrap-middle .widget {
+		margin: 0 25px 0 0 !important;
+	}
+	div.wrap-middle .one_fourth_last .widget {
+		margin-right: 0px !important;
+	}
+}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+	/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* - Header - */
+	.main-header {
+		width: 750px;
+	}
+	.wrap-center {
+		width: 750px;
+	}
+	.wrap-middle {
+		width: 750px;
+	}
+	/* - Layout content - */
+	.wrap-fullwidth {
+		width: 750px;
+	}
+	.wrap-fullwidth-bg {
+		width: 750px;
+	}
+	.home-sidebar {
+		width: 750px;
+	}
+	/* .page-content */
+	.single-content {
+		width: 420px;
+	}
+	.sidebar {
+		width: 300px;
+		float: left;
+		margin-left: 30px;
+	}
+	/* Module Sidebar */
+	.wrap-modules .sidebar {
+		width: 750px;
+		float: left;
+		margin-left: 0px;
+		-moz-column-gap: 40px;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 40px;
+		column-count: 2;
+	}
+	.wrap-modules .sidebar .widget {
+		width: 305px;
+		display: inline-block;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Search -- */
+	header .searchform2 {
+		height: auto;
+		float: right;
+		margin: -61px 70px 0 0;
+		position: relative;
+		z-index: 203;
+	}
+	header .search-field {
+		width: 180px;
+	}
+	/* -- Top social icons -- */
+	.top-social {
+		display: none;
+	}
+	/* -- Top Authors -- */
+	ul.list-authors {
+		width: 750px;
+	}
+	ul.list-authors li {
+		margin: 0 23px 0 0;
+	}
+	ul.list-authors li:nth-child(n+10) {
+		display: none;
+	}
+	ul.list-authors li div.tooltiptext {
+		width: 100px;
+		margin-left: -35px;
+	}
+	/* -- Responsive Menu Styles -- */
+	#respMenu li.current_page_item a,
+	#respMenu li.current-menu-ancestor a,
+	#respMenu li.current-menu-item a,
+	#respMenu li.current-menu-parent a {
+		background: transparent !important;
+		color: #FFF !important;
+	}
+	/* -- Popular Words -- */
+	.popular-words {
+		white-space: nowrap;
+		width: 700px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	/* -- Drop Down Categories -- */
+	.dropbtn {
+		width: 35px;
+		padding: 0 0 4px 10px;
+		font-size: 0px;
+	}
+	.dropdown {
+		margin: 67px 0 0px 0;
+		width: 35px;
+	}
+	ul#myDropdown {
+		right: 0px;
+	}
+	ul#myDropdown li {
+		right: 0px;
+	}
+	.dropbtn::before {
+		font-size: 16px;
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+	/* -- Header button ADD -- */
+	header .bt {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Home content -- */
+	.home-content div.entry {
+		width: 92%;
+		margin: 40px 30px 0 30px !important;
+		padding: 30px 0 !important;
+	}
+	/* -- Categories in 4 columns Big Search -- */
+	ul.cat-4cols {
+		width: 750px;
+		margin: 50px 0 70px -30px;
+		display: inline-block;
+	}
+	ul.cat-4cols li a {
+		font-size: 14px;
+		font-weight: 500;
+		margin-right: 5px;
+	}
+	ul.cat-4cols li.cat-item span b {
+		display: none;
+	}
+	/* -- Blog Style -- */
+	ul.grid_list {
+		margin: 0 0 0 -25px;
+	}
+	ul.grid_list li {
+		width: 233.33px;
+		margin: 0 0 25px 25px;
+	}
+	ul.grid_list li img {
+		width: 233.33px;
+	}
+	ul.grid_list li div.grid-content {
+		padding: 30px 25px 25px 25px;
+	}
+	/* - views- */
+	div.post-views {
+		padding: 11px 0 0 25px;
+	}
+	div.post-views i {
+		display: none;
+	}
+	/* - Blog Style Ads - */
+	ul.grid_list li.homeadv,
+	ul.grid_list li.homeadv img {
+		width: 233.33px !important;
+		min-height: 195px;
+	}
+	/* -- Posts hover border -- */
+	.borderhover {
+		width: 233.33px;
+	}
+	/* -- Icons -- */
+	ul.meta-icons-home {
+		height: 24px;
+		float: right;
+		margin: 0 20px -24px 0;
+	}
+	ul.meta-icons-home li {
+		width: 24px;
+		height: 24px;
+		margin: 65px 0 0 5px;
+	}
+	/* -- Modul carousel -- */
+	.carousel {
+		width: 750px;
+	}
+	.carousel-item__image {
+		width: 350px;
+		height: 350px;
+	}
+	.carousel-item__image img {
+		width: 350px;
+		height: 350px !important;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list {
+		width: 780px;
+		height: 100px;
+		margin: 0 0 -30px -30px;
+	}
+	ul.big-list li {
+		width: 360px;
+		height: 185px;
+		margin: 0 0 30px 30px;
+	}
+	ul.big-list li img {
+		width: 120px;
+		height: 185px;
+	}
+	ul.big-list li .borderhover {
+		width: 120px;
+	}
+	ul.big-list li div.list-content {
+		margin-left: 120px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list-black {
+		width: 780px;
+		height: 100px;
+		margin: 0 0 -30px -30px;
+	}
+	ul.big-list-black li {
+		width: 360px;
+		height: 185px;
+		margin: 0 0 30px 30px;
+	}
+	ul.big-list-black li img {
+		width: 120px;
+		height: 185px;
+	}
+	ul.big-list-black li .borderhover {
+		width: 120px;
+	}
+	ul.big-list-black li div.list-content {
+		margin-right: 120px;
+	}
+	/* - Blog Style for modules - */
+	.home-sidebar ul.grid_list {
+		width: 780px;
+		height: auto;
+		margin: 0 0 -30px -30px;
+	}
+	.home-sidebar ul.grid_list li {
+		width: 360px;
+		height: 400px;
+		margin: 0 0 30px 30px;
+	}
+	.home-sidebar ul.grid_list li img {
+		width: 360px;
+	}
+	.home-sidebar ul.grid_list li .borderhover {
+		width: 360px;
+	}
+	.home-sidebar ul.meta-icons-home {
+		display: none;
+	}
+	/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- not-found -- */
+	.not-found .searchform2 {
+		margin: 28px 0 0 0;
+	}
+	.not-found .search-field {
+		width: 300px;
+	}
+	/* -- Single Share -- */
+	ul.meta-entry-top li ul.single-share {
+		display: none;
+	}
+	/* -- Related articles single -- */
+	.single-related-wrap {
+		width: 100%;
+	}
+	.prev-entry {
+		padding: 35px 20px;
+	}
+	.prev-articles h2 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.prev-articles .one_half,
+	.prev-articles .one_half_last {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	/* -- Page / Article Title -- */
+	h1.article-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.entry h1.page-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	/* - Top entry - */
+	.entry-top {
+		width: 370px;
+	}
+	/* -- Entry content style -- */
+	.entry {
+		width: 370px;
+	}
+	/* -- Entry bottom -- */
+	.entry-bottom {
+		width: 370px;
+	}
+	/* -- Responsive Images -- */
+	.entry iframe {
+		max-width: 370px;
+		height: 250px;
+		margin-left: 0px;
+	}
+	/* Qefood Recipe Style */
+	.qefood-note {
+		width: 320px;
+		margin: 25px auto;
+		padding: 25px 25px 25px 25px;
+	}
+	.qefood-note img {
+		width: 100px;
+		height: 75px;
+		object-fit: cover;
+		float: right;
+		padding: 15px;
+		border: 1px solid #fafafa;
+		border-radius: 5px;
+	}
+	div.article-source-link a {
+		font-size: 16px;
+	}
+	/* -- About Author -- */
+	.author-meta {
+		width: 750px;
+	}
+	.author-meta-entry {
+		padding: 45px 0px 0 0px;
+		float: left;
+		margin-bottom: -30px;
+	}
+	.author-info {
+		width: auto;
+		height: auto;
+		margin: 5px 0 -15px 35px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Sidebar -- */
+	.sidebar .widget {
+		width: 250px;
+		padding: 40px 25px;
+		margin-bottom: 30px;
+	}
+	/* -- Meta in two columns -- */
+	.widget_meta ul {
+		width: 275px;
+		margin-left: -25px;
+	}
+	.widget_meta li {
+		width: 112px;
+		margin-left: 25px;
+	}
+	/* -- Banner widget 300px -- */
+	.img-300 {
+		width: 300px;
+		height: auto;
+		margin: -40px 0 -50px -25px;
+		padding: 0px;
+	}
+	.wrap-modules .img-300 {
+		margin: -10px 0 -20px 0px;
+		padding: 0px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+	ul.comment {
+		width: 370px;
+	}
+	/* -- Comments -- */
+	.comments {
+		width: 370px;
+	}
+	ul.comment li span.comment-date {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- 404 page -- */
+	#anthemes-404 .middle-404 {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	#anthemes-404 h1 {
+		font-size: 50px;
+		padding: 0 0 25px 0;
+	}
+	#anthemes-404 img {
+		width: 70%;
+		margin-top: -40px;
+		float: right;
+		margin-right: 50px;
+	}
+	/* -- Contact Form 7 Plugin -- */
+	form.wpcf7-form {
+		padding: 20px 25px 0px 25px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Footer -- */
+	.wrap-footer-middle {
+		width: 750px;
+	}
+	/* -- Footer Notice -- */
+	.wrap-footer-small {
+		width: 750px;
+	}
+	.footer-notice-left {
+		width: 480px;
+	}
+	.footer-notice h2 {
+		font-size: 28px;
+		line-height: 42px;
+	}
+	/* -- widgets -- */
+	footer .widget {
+		display: inline-block;
+	}
+	footer .wrap-middle {
+		width: 750px;
+		column-count: 2;
+		padding: 30px 0 50px 0;
+	}
+	footer .widget_text {
+		padding-top: 0px !important;
+	}
+	div.wrap-middle .widget {
+		margin: 15px 0 15px 0 !important;
+	}
+	div.wrap-middle .one_fourth_last .widget {}
+	footer .one_fourth,
+	footer .one_fourth_last {
+		float: left;
+		width: auto;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+	footer .one_fourth_last {
+		margin-right: 0;
+	}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 580px) and (max-width: 759px) {
+	/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* - Header - */
+	.main-header {
+		width: 570px;
+	}
+	.wrap-center {
+		width: 570px;
+	}
+	.wrap-middle {
+		width: 570px;
+	}
+	/* - Layout content - */
+	.wrap-fullwidth {
+		width: 570px;
+	}
+	.wrap-fullwidth-bg {
+		width: 570px;
+	}
+	.wrap-fullwidth-bg .entry {
+		width: auto;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.home-sidebar {
+		width: 570px;
+	}
+	/* .page-content */
+	.single-content {
+		width: 570px;
+	}
+	.sidebar {
+		width: 575px;
+		float: left;
+		margin-top: 50px;
+		margin-left: -5px;
+		-moz-column-gap: 25px;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 25px;
+		column-count: 2;
+	}
+	.sidebar .widget {
+		width: 240px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 25px;
+		padding-bottom: 20px;
+		display: inline-block;
+		margin-left: 5px;
+		margin-right: 0px;
+		margin-bottom: 25px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Search -- */
+	header .searchform2 {
+		height: auto;
+		float: right;
+		margin: -61px 50px 0 0;
+		position: relative;
+		z-index: 203;
+	}
+	header .search-field {
+		width: 150px;
+	}
+	/* -- Top social icons -- */
+	.top-social {
+		display: none;
+	}
+	/* -- Top Authors -- */
+	ul.list-authors {
+		width: 570px;
+	}
+	ul.list-authors li {
+		margin: 0 21px 0 0;
+	}
+	ul.list-authors li:nth-child(n+8) {
+		display: none;
+	}
+	ul.list-authors li div.tooltiptext {
+		width: 100px;
+		margin-left: -35px;
+	}
+	/* -- Responsive Menu Styles -- */
+	#respMenu li.current_page_item a,
+	#respMenu li.current-menu-ancestor a,
+	#respMenu li.current-menu-item a,
+	#respMenu li.current-menu-parent a {
+		background: transparent !important;
+		color: #FFF !important;
+	}
+	/* -- Popular Words -- */
+	.popular-words {
+		white-space: nowrap;
+		width: 540px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	/* -- Drop Down Categories -- */
+	.dropbtn {
+		width: 35px;
+		padding: 0 0 4px 10px;
+		font-size: 0px;
+	}
+	.dropdown {
+		margin: 67px 0 0px 0;
+		width: 35px;
+	}
+	ul#myDropdown {
+		right: 0px;
+	}
+	ul#myDropdown li {
+		right: 0px;
+	}
+	.dropbtn::before {
+		font-size: 16px;
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+	/* -- Header button ADD -- */
+	header .bt {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Home content -- */
+	.home-content div.entry {
+		width: 90%;
+		margin: 40px 30px 0 30px !important;
+		padding: 30px 0 !important;
+	}
+	/* -- Categories in 4 columns Big Search -- */
+	ul.cat-4cols {
+		width: 570px;
+		margin: 50px 0 70px -30px;
+		display: inline-block;
+	}
+	ul.cat-4cols li {
+		width: 29.33%;
+		margin-left: 3%;
+	}
+	ul.cat-4cols li a {
+		font-size: 16px;
+		font-weight: 500;
+		margin-right: 5px;
+	}
+	ul.cat-4cols li.cat-item span b {
+		display: none;
+	}
+	ul.cat-4cols li:nth-child(n+16) {
+		display: none;
+	}
+	/* -- Blog Style -- */
+	ul.grid_list {
+		margin: 0 0 0 -30px;
+	}
+	ul.grid_list li {
+		width: 270px;
+		margin: 0 0 30px 30px;
+	}
+	ul.grid_list li img {
+		width: 270px;
+	}
+	ul.grid_list li div.grid-content {
+		padding: 30px 25px 25px 25px;
+	}
+	/* - Blog Style Ads - */
+	ul.grid_list li.homeadv,
+	ul.grid_list li.homeadv img {
+		width: 270px !important;
+		min-height: 229px;
+	}
+	/* -- Posts hover border -- */
+	.borderhover {
+		width: 270px;
+	}
+	/* -- Icons -- */
+	ul.meta-icons-home {
+		height: 24px;
+		float: right;
+		margin: 0 20px -24px 0;
+	}
+	ul.meta-icons-home li {
+		width: 24px;
+		height: 24px;
+		margin: 65px 0 0 5px;
+	}
+	/* -- Modul carousel -- */
+	.carousel {
+		width: 570px;
+	}
+	.carousel-item__image {
+		width: 250px;
+		height: 350px;
+	}
+	.carousel-item__image img {
+		width: 250px;
+		height: 350px !important;
+	}
+	.carousel-item__info {
+		padding: 0 25px;
+		width: 60%;
+	}
+	.carousel-item__title {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list {
+		width: 600px;
+		height: auto;
+		margin: 0 0 -30px -30px;
+	}
+	ul.big-list li {
+		width: 270px;
+		height: 200px;
+		margin: 0 0 30px 30px;
+	}
+	ul.big-list li img {
+		width: 60px;
+		height: 200px;
+	}
+	ul.big-list li .borderhover {
+		width: 60px;
+	}
+	ul.big-list li div.noimg {
+		height: 200px;
+	}
+	ul.big-list li div.list-content {
+		margin-left: 60px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list li h2 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px;
+		margin-top: 0px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list-black {
+		width: 600px;
+		height: auto;
+		margin: 0 0 -30px -30px;
+	}
+	ul.big-list-black li {
+		width: 270px;
+		height: 200px;
+		margin: 0 0 30px 30px;
+	}
+	ul.big-list-black li img {
+		width: 60px;
+		height: 200px;
+	}
+	ul.big-list-black li .borderhover {
+		width: 60px;
+	}
+	ul.big-list-black li div.noimg {
+		height: 200px;
+	}
+	ul.big-list-black li div.list-content {
+		margin-right: 60px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list-black li h2 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px;
+		margin-top: 0px;
+	}
+	/* - Blog Style for modules - */
+	.home-sidebar ul.grid_list {
+		width: 600px;
+		height: auto;
+		margin: 0 0 -30px -30px;
+	}
+	.home-sidebar ul.grid_list li {
+		width: 270px;
+		height: 400px;
+		margin: 0 0 30px 30px;
+	}
+	.home-sidebar ul.grid_list li img {
+		width: 270px;
+	}
+	.home-sidebar ul.grid_list li .borderhover {
+		width: 270px;
+	}
+	.home-sidebar ul.meta-icons-home {
+		display: none;
+	}
+	/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- not-found -- */
+	.not-found .searchform2 {
+		margin: 28px 0 0 0;
+	}
+	.not-found .search-field {
+		width: 300px;
+	}
+	/* -- Single Share -- */
+	ul.meta-entry-top li ul.single-share a span {
+		display: none;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton i {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton {
+		padding: 6px 7px 5px 7px;
+	}
+	/* -- Related articles single -- */
+	.single-related-wrap {
+		width: 100%;
+	}
+	.prev-entry {
+		padding: 35px 10%;
+		text-align: center;
+		width: 80%;
+	}
+	.prev-articles h2 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.prev-articles .one_half,
+	.prev-articles .one_half_last {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	/* -- Page / Article Title -- */
+	h1.article-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.entry h1.page-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	/* - Top entry - */
+	.entry-top {
+		width: 510px;
+	}
+	/* -- Entry content style -- */
+	.entry {
+		width: 510px;
+	}
+	/* -- Entry bottom -- */
+	.entry-bottom {
+		width: 510px;
+	}
+	/* -- Responsive Images -- */
+	.entry iframe {
+		max-width: 510px;
+		height: 350px;
+		margin-left: 0px;
+	}
+	/* Qefood Recipe Style */
+	.qefood-note {
+		width: 410px;
+		margin: 25px auto;
+		padding: 15px 50px 25px 50px;
+	}
+	.qefood-note img {
+		width: 150px;
+		height: 100px;
+		object-fit: cover;
+		float: right;
+		padding: 15px;
+		border: 1px solid #fafafa;
+		border-radius: 5px;
+	}
+	div.article-source-link a {
+		font-size: 18px;
+	}
+	/* -- About Author -- */
+	.author-meta {
+		width: 570px;
+	}
+	.author-meta-entry {
+		padding: 45px 0px 0 0px;
+		float: left;
+		margin-bottom: -30px;
+	}
+	.author-info {
+		width: auto;
+		height: auto;
+		margin: 5px 0 -15px 35px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Meta in two columns -- */
+	.widget_meta ul {
+		width: 275px;
+		margin-left: -25px;
+	}
+	.widget_meta li {
+		width: 112px;
+		margin-left: 25px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+	ul.comment {
+		width: 510px;
+	}
+	.comments {
+		width: 510px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- 404 page -- */
+	#anthemes-404 .middle-404 {
+		max-width: 570px;
+		margin: 0 auto;
+	}
+	#anthemes-404 h1 {
+		font-size: 50px;
+		padding: 0 0 25px 0;
+	}
+	#anthemes-404 img {
+		width: 80%;
+		margin-top: -40px;
+		float: right;
+		margin-right: 40px;
+	}
+	/* -- Shop Style -- */
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		width: 48% !important;
+	}
+	.woocommerce-product-search button {
+		padding: 10px 10px 11px 10px !important;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Footer -- */
+	.wrap-footer-middle {
+		width: 570px;
+	}
+	/* -- Footer Notice -- */
+	.wrap-footer-small {
+		width: 570px;
+	}
+	.footer-notice-left {
+		width: 330px;
+	}
+	.footer-notice h2 {
+		font-size: 26px;
+		line-height: 42px;
+	}
+	/* -- widgets -- */
+	footer .widget {
+		display: inline-block;
+	}
+	footer .wrap-middle {
+		width: 570px;
+		column-count: 2;
+		padding: 30px 0 50px 0;
+	}
+	footer .widget_text {
+		padding-top: 0px !important;
+	}
+	div.wrap-middle .widget {
+		margin: 15px 0 15px 0 !important;
+	}
+	div.wrap-middle .one_fourth_last .widget {}
+	footer .one_fourth,
+	footer .one_fourth_last {
+		float: left;
+		width: auto;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+	footer .one_fourth_last {
+		margin-right: 0;
+	}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 579px) {
+	/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* - Header - */
+	.main-header {
+		width: 460px;
+	}
+	.wrap-center {
+		width: 460px;
+	}
+	.wrap-middle {
+		width: 460px;
+	}
+	/* - Layout content - */
+	.wrap-fullwidth {
+		width: 460px;
+		margin: 0 auto 40px auto;
+	}
+	.wrap-fullwidth-bg {
+		width: 460px;
+		margin: 30px auto 40px auto;
+	}
+	.wrap-fullwidth-bg .entry {
+		width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.home-sidebar {
+		width: 460px;
+	}
+	/* .page-content */
+	.single-content {
+		width: 460px;
+		margin: 30px 0 0 0;
+	}
+	.sidebar {
+		width: 460px;
+		float: left;
+		margin-top: 50px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	.sidebar .widget {
+		width: 250px;
+		margin-bottom: 25px;
+		display: block;
+		float: left;
+		margin-right: 0px;
+		padding-left: 105px;
+		padding-right: 105px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Search -- */
+	header .searchform2 {
+		height: auto;
+		float: right;
+		margin: -61px 50px 0 0;
+		position: relative;
+		z-index: 203;
+	}
+	header .search-field {
+		width: 90px;
+		-webkit-transition-duration: 400ms;
+		-webkit-transition-property: width;
+		-webkit-transition-timing-function: ease;
+		-moz-transition-duration: 400ms;
+		-moz-transition-property: width;
+		-moz-transition-timing-function: ease;
+		-o-transition-duration: 400ms;
+		-o-transition-property: width;
+		-o-transition-timing-function: ease;
+		transition-duration: 400ms;
+		transition-property: width;
+		transition-timing-function: ease;
+	}
+	header .search-field:focus {
+		width: 170px;
+		overflow: hidden;
+	}
+	/* -- Top social icons -- */
+	.top-social {
+		display: none;
+	}
+	/* -- Top Authors -- */
+	ul.list-authors {
+		width: 460px;
+	}
+	ul.list-authors li {
+		margin: 0 15px 0 0;
+	}
+	ul.list-authors li:nth-child(n+7) {
+		display: none;
+	}
+	ul.list-authors li div.tooltiptext {
+		width: 100px;
+		margin-left: -35px;
+	}
+	/* -- Responsive Menu Styles -- */
+	#respMenu li.current_page_item a,
+	#respMenu li.current-menu-ancestor a,
+	#respMenu li.current-menu-item a,
+	#respMenu li.current-menu-parent a {
+		background: transparent !important;
+		color: #FFF !important;
+	}
+	/* -- Popular Words -- */
+	.popular-words {
+		white-space: nowrap;
+		width: 450px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	/* -- Drop Down Categories -- */
+	.dropbtn {
+		width: 35px;
+		padding: 0 0 4px 10px;
+		font-size: 0px;
+	}
+	.dropdown {
+		margin: 67px 0 0px 0;
+		width: 35px;
+	}
+	ul#myDropdown {
+		right: 0px;
+	}
+	ul#myDropdown li {
+		right: 0px;
+	}
+	.dropbtn::before {
+		font-size: 16px;
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+	/* -- Header button ADD -- */
+	header .bt {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Home content -- */
+	.home-content div.entry {
+		width: 87%;
+		margin: 40px 30px 0 30px !important;
+		padding: 30px 0 !important;
+	}
+	/* -- Sub Header Search -- */
+	.front-overlay-wrap h1 {
+		padding-top: 80px;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 38px;
+		word-spacing: 4px;
+	}
+	.front-overlay-content .searchform2 {
+		width: 400px;
+	}
+	.front-overlay-content .searchform2 .search-field {
+		width: 318px;
+	}
+	/* -- Categories in 4 columns Big Search -- */
+	ul.cat-4cols {
+		width: 460px;
+		margin: 50px 0 70px -30px;
+		display: inline-block;
+	}
+	ul.cat-4cols li {
+		width: 45%;
+		margin-left: 5%;
+	}
+	ul.cat-4cols li a {
+		font-size: 16px;
+		font-weight: 500;
+		margin-right: 5px;
+	}
+	ul.cat-4cols li.cat-item span b {
+		display: none;
+	}
+	ul.cat-4cols li:nth-child(n+9) {
+		display: none;
+	}
+	/* -- Blog Style -- */
+	ul.grid_list {
+		margin: 0 0 0 -20px;
+	}
+	ul.grid_list li {
+		width: 220px;
+		margin: 0 0 20px 20px;
+	}
+	ul.grid_list li img {
+		width: 220px;
+	}
+	ul.grid_list li div.grid-content {
+		padding: 30px 20px 25px 20px;
+	}
+	/* - views- */
+	div.post-views {
+		padding: 11px 0 0 20px;
+	}
+	div.post-views i {
+		display: none;
+	}
+	/* -- Ranting Home -- */
+	.home-rating {
+		margin: 11px 15px 0 0;
+	}
+	.home-rating span.star-result,
+	.home-rating span.count {
+		font-size: 10px !important;
+	}
+	/* - Blog Style Ads - */
+	ul.grid_list li.homeadv,
+	ul.grid_list li.homeadv img {
+		width: 220px !important;
+		min-height: 183px;
+	}
+	/* -- Posts hover border -- */
+	.borderhover {
+		width: 220px;
+	}
+	/* -- Icons -- */
+	ul.meta-icons-home {
+		display: none;
+	}
+	/* -- Title Module Widget -- */
+	.menu__item-name {
+		font-size: 22px;
+	}
+	.menu--adsila {
+		font-size: 18px;
+	}
+	/* -- Modul carousel -- */
+	.carousel {
+		width: 460px;
+	}
+	.carousel-item__image {
+		width: 230px;
+		height: 350px;
+	}
+	.carousel-item__image img {
+		width: 230px;
+		height: 350px !important;
+	}
+	.carousel-item__info {
+		padding: 0 25px;
+		width: 60%;
+	}
+	.carousel-item__title {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.carousel-item__description {
+		font-size: 14px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list {
+		width: 480px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	ul.big-list li {
+		width: 220px;
+		height: 220px;
+		margin: 0 0 20px 20px;
+	}
+	ul.big-list li img {
+		width: 40px;
+		height: 220px;
+	}
+	ul.big-list li .borderhover {
+		width: 40px;
+	}
+	ul.big-list li div.noimg {
+		height: 220px;
+	}
+	ul.big-list li div.list-content {
+		margin-left: 40px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list li h2 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px;
+		margin-top: 0px;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list-black {
+		width: 480px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	ul.big-list-black li {
+		width: 220px;
+		height: 230px;
+		margin: 0 0 20px 20px;
+	}
+	ul.big-list-black li img {
+		width: 40px;
+		height: 230px;
+	}
+	ul.big-list-black li .borderhover {
+		width: 40px;
+	}
+	ul.big-list-black li div.noimg {
+		height: 230px;
+	}
+	ul.big-list-black li div.list-content {
+		margin-right: 40px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list-black li h2 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px;
+		margin-top: 0px;
+	}
+	/* - Blog Style for modules - */
+	.home-sidebar ul.grid_list {
+		width: 480px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	.home-sidebar ul.grid_list li {
+		width: 220px;
+		height: 410px;
+		margin: 0 0 20px 20px;
+	}
+	.home-sidebar ul.grid_list li img {
+		width: 220px;
+	}
+	.home-sidebar ul.grid_list li .borderhover {
+		width: 220px;
+	}
+	.home-sidebar ul.meta-icons-home {
+		display: none;
+	}
+	.home-sidebar ul.grid_list li h2 {
+		font-size: 16px;
+	}
+	/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- not-found -- */
+	.not-found .searchform2 {
+		margin: 28px 0 0 0;
+	}
+	.not-found .search-field {
+		width: 300px;
+	}
+	.not-found {
+		padding: 50px 25px;
+	}
+	/* -- Single Share -- */
+	ul.meta-entry-top li ul.single-share a span {
+		display: none;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton i {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton {
+		padding: 6px 7px 5px 7px;
+	}
+	ul.meta-entry-top li span.updated {
+		display: none;
+	}
+	/* -- Related articles single -- */
+	.single-related-wrap {
+		width: 100%;
+	}
+	.prev-entry {
+		padding: 35px 10%;
+		text-align: center;
+		width: 80%;
+	}
+	.prev-articles h2 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.prev-articles .one_half,
+	.prev-articles .one_half_last {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	/* -- Page / Article Title -- */
+	h1.article-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.entry h1.page-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	/* - Top entry - */
+	.entry-top {
+		width: 410px;
+	}
+	/* -- Entry content style -- */
+	.entry {
+		width: 410px;
+	}
+	/* -- Entry bottom -- */
+	.entry-bottom {
+		width: 410px;
+	}
+	/* -- Responsive Images -- */
+	.entry iframe {
+		max-width: 410px;
+		height: 280px;
+		margin-left: 0px;
+	}
+	/* Qefood Recipe Style */
+	.qefood-note {
+		width: 350px;
+		margin: 25px auto;
+		padding: 15px 25px 25px 25px;
+	}
+	.qefood-note img {
+		width: 100px;
+		height: 75px;
+		object-fit: cover;
+		float: right;
+		padding: 15px;
+		border: 1px solid #fafafa;
+		border-radius: 5px;
+	}
+	div.article-source-link a {
+		font-size: 16px;
+	}
+	/* -- About Author -- */
+	.author-meta {
+		width: 460px;
+	}
+	.author-meta-entry {
+		padding: 45px 0px 0 0px;
+		float: left;
+		margin-bottom: -30px;
+	}
+	.author-info {
+		width: auto;
+		height: auto;
+		margin: 5px 0 -15px 35px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Meta in two columns -- */
+	.widget_meta ul {
+		width: 95%;
+		margin-left: -25px;
+	}
+	.widget_meta li {
+		width: 95%;
+		margin-left: 25px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+	ul.comment {
+		width: 410px;
+	}
+	.comments {
+		width: 410px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- 404 page -- */
+	#anthemes-404 {
+		padding: 40px 0 50px 0;
+	}
+	#anthemes-404 .middle-404 {
+		width: 460px;
+		margin: 0 auto;
+	}
+	#anthemes-404 h1 {
+		font-size: 50px;
+		padding: 50px 0 30px 0;
+	}
+	#anthemes-404 p {
+		font-size: 18px;
+		line-height: 32px;
+	}
+	#anthemes-404 .one_half,
+	#anthemes-404 .one_half_last {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	#anthemes-404 .one_half_last {
+		margin-right: 0;
+	}
+	#anthemes-404 img {
+		width: 50%;
+		margin-top: 0px;
+		float: none;
+		margin-right: 0px;
+	}
+	/* -- Contact Form 7 Plugin -- */
+	form.wpcf7-form {
+		padding: 20px 25px 0px 25px;
+	}
+	/* -- Shop Style -- */
+	.woocommerce .woocommerce-result-count {
+		font-size: 14px;
+	}
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		width: 48% !important;
+	}
+	.woocommerce-product-search button {
+		padding: 10px 10px 11px 10px !important;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Footer -- */
+	.wrap-footer-middle {
+		width: 460px;
+	}
+	.wrap-footer {
+		width: 100%;
+		min-height: 75px;
+		margin: 0 auto;
+	}
+	/* -- Top social icons -- */
+	.footer-social {
+		display: none;
+	}
+	/* -- Footer Notice -- */
+	.footer-notice {
+		padding-bottom: 100px;
+	}
+	.wrap-footer-small {
+		width: 450px;
+	}
+	.footer-notice-left {
+		width: 450px;
+		padding-bottom: 0px;
+	}
+	.footer-notice h2 {
+		font-size: 26px;
+		line-height: 42px;
+		text-align: center;
+	}
+	.footer-notice h4 {
+		text-align: center;
+		padding-bottom: 35px;
+		padding-top: 15px;
+		font-weight: 400;
+	}
+	footer .bt {
+		width: 70px;
+		float: none;
+		margin: 0 auto;
+	}
+	/* -- widgets -- */
+	footer ul.article_list li .grid-comm {
+		display: none;
+	}
+	footer ul.article_list li img {
+		width: 50px;
+		height: 50px;
+	}
+	footer ul.article_list .an-widget-title h4 {
+		font-size: 14px;
+		margin: 0px 0 0 0;
+	}
+	footer ul.article_list li div.an-widget-title {
+		margin-left: 65px !important;
+	}
+	footer .widget {
+		display: inline-block;
+	}
+	footer .wrap-middle {
+		width: 460px;
+		column-count: 2;
+		padding: 30px 0 50px 0;
+	}
+	footer .widget_text {
+		margin-top: 0px !important;
+		padding-right: 30px;
+	}
+	div.wrap-middle .widget {
+		margin: 15px 0 15px 0 !important;
+	}
+	div.wrap-middle .one_fourth_last .widget {}
+	footer .one_fourth,
+	footer .one_fourth_last {
+		float: left;
+		width: auto;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	footer .one_fourth_last {
+		margin-right: 0;
+	}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 410px) and (max-width: 479px) {
+	/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* - Header - */
+	.main-header {
+		width: 390px;
+	}
+	.wrap-center {
+		width: 390px;
+	}
+	.wrap-middle {
+		width: 390px;
+	}
+	/* - Layout content - */
+	.wrap-fullwidth {
+		width: 390px;
+		margin: 0 auto 30px auto;
+	}
+	.wrap-fullwidth-bg {
+		width: 390px;
+		margin: 30px auto 30px auto;
+	}
+	.wrap-fullwidth-bg .entry {
+		width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.home-sidebar {
+		width: 390px;
+	}
+	/* .page-content */
+	.single-content {
+		width: 390px;
+		margin: 30px 0 0 0;
+	}
+	.sidebar {
+		width: 390px;
+		float: left;
+		margin-top: 50px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	.sidebar .widget {
+		width: 250px;
+		margin-bottom: 25px;
+		display: block;
+		float: left;
+		margin-right: 0px;
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.sidebar .menu__item {
+		width: 250px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Logo -- */
+	.logo {
+		position: relative;
+		z-index: 203;
+	}
+	/* -- Search -- */
+	header .searchform2 {
+		height: auto;
+		float: right;
+		margin: -61px 50px 0 0;
+		position: relative;
+		z-index: 203;
+	}
+	header .search-field {
+		width: 50px;
+		-webkit-transition-duration: 400ms;
+		-webkit-transition-property: width;
+		-webkit-transition-timing-function: ease;
+		-moz-transition-duration: 400ms;
+		-moz-transition-property: width;
+		-moz-transition-timing-function: ease;
+		-o-transition-duration: 400ms;
+		-o-transition-property: width;
+		-o-transition-timing-function: ease;
+		transition-duration: 400ms;
+		transition-property: width;
+		transition-timing-function: ease;
+	}
+	header .search-field:focus {
+		width: 170px;
+		overflow: hidden;
+	}
+	/* -- Top social icons -- */
+	.top-social {
+		display: none;
+	}
+	/* -- Top Authors -- */
+	.authors {
+		width: 100%;
+		height: 50px;
+	}
+	ul.list-authors {
+		width: 390px;
+	}
+	ul.list-authors li {
+		width: 50px;
+		height: 50px;
+		margin: 0 15px 0 0;
+	}
+	ul.list-authors li img {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	ul.list-authors li:nth-child(n+7) {
+		display: none;
+	}
+	ul.list-authors li div.tooltiptext {
+		display: none;
+	}
+	div.list-trophy {
+		margin: -60px 0 0 30px;
+	}
+	/* -- Responsive Menu Styles -- */
+	#respMenu li.current_page_item a,
+	#respMenu li.current-menu-ancestor a,
+	#respMenu li.current-menu-item a,
+	#respMenu li.current-menu-parent a {
+		background: transparent !important;
+		color: #FFF !important;
+	}
+	/* -- Popular Words -- */
+	.top-navigation {
+		display: none;
+	}
+	/* -- Drop Down Categories -- */
+	.dropbtn {
+		width: 35px;
+		padding: 0 0 4px 10px;
+		font-size: 0px;
+	}
+	.dropdown {
+		margin: 58px 0 0px 0;
+		width: 35px;
+	}
+	ul#myDropdown {
+		right: 0px;
+	}
+	ul#myDropdown li {
+		right: 0px;
+	}
+	.dropbtn::before {
+		font-size: 16px;
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+	/* -- Header button ADD -- */
+	header .bt {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Home content -- */
+	.home-content div.entry {
+		width: 87%;
+		margin: 40px 30px 0 30px !important;
+		padding: 30px 0 !important;
+	}
+	/* -- Sub Header Search -- */
+	.front-overlay-wrap h1 {
+		padding-top: 40px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 32px;
+		word-spacing: 4px;
+	}
+	.front-overlay-content .searchform2 {
+		width: 350px;
+	}
+	.front-overlay-content .searchform2 .search-field {
+		width: 268px;
+	}
+	/* -- Categories in 4 columns Big Search -- */
+	ul.cat-4cols {
+		width: 390px;
+		margin: 30px 0 30px -30px;
+		display: inline-block;
+	}
+	ul.cat-4cols li {
+		width: 45%;
+		margin-left: 5%;
+	}
+	ul.cat-4cols li a {
+		font-size: 16px;
+		font-weight: 500;
+		margin-right: 5px;
+	}
+	ul.cat-4cols li.cat-item span b {
+		display: none;
+	}
+	ul.cat-4cols li:nth-child(n+9) {
+		display: none;
+	}
+	/* -- Blog Style -- */
+	ul.grid_list {
+		margin: 0 0 0 -20px;
+	}
+	ul.grid_list li {
+		width: 185px;
+		margin: 0 0 20px 20px;
+	}
+	ul.grid_list li img {
+		width: 185px;
+	}
+	ul.grid_list li div.grid-content {
+		padding: 30px 20px 25px 20px;
+	}
+	ul.grid_list li .grid-comm {
+		display: none;
+	}
+	/* - views- */
+	div.post-views {
+		display: none;
+	}
+	/* -- Ranting Home -- */
+	.home-rating {
+		margin: 11px 0 0 20px;
+		float: left;
+	}
+	.home-rating span.star-result,
+	.home-rating span.count {
+		font-size: 12px !important;
+	}
+	/* - Blog Style Ads - */
+	ul.grid_list li.homeadv,
+	ul.grid_list li.homeadv img {
+		width: 185px !important;
+		min-height: 183px;
+	}
+	/* -- Posts hover border -- */
+	.borderhover {
+		width: 185px;
+	}
+	/* -- Icons -- */
+	ul.meta-icons-home {
+		display: none;
+	}
+	/* -- Default pagination -- */
+	.defaultpag {
+		width: 350px;
+	}
+	/* -- Title Module Widget -- */
+	.menu__item-name {
+		font-size: 20px;
+	}
+	.menu--adsila {
+		font-size: 14px;
+	}
+	.menu__item {
+		width: 350px;
+	}
+	/* -- Modul carousel -- */
+	.carousel {
+		width: 390px;
+	}
+	.carousel-item__image {
+		width: 230px;
+		height: 350px;
+	}
+	.carousel-item__image img {
+		width: 230px;
+		height: 350px !important;
+	}
+	.carousel-item__info {
+		padding: 0 25px;
+		width: 60%;
+	}
+	.carousel-item__title {
+		font-size: 22px;
+		line-height: 32px;
+		margin-bottom: 25px;
+	}
+	.carousel-item__description {
+		display: none;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list {
+		width: 410px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	ul.big-list li {
+		width: 185px;
+		height: 200px;
+		margin: 0 0 20px 20px;
+	}
+	ul.big-list li img {
+		width: 50px;
+		height: 200px;
+	}
+	ul.big-list li .borderhover {
+		width: 50px;
+	}
+	ul.big-list li div.noimg {
+		height: 200px;
+	}
+	ul.big-list li div.list-content {
+		margin-left: 50px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list li h2 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px;
+		margin-top: 0px;
+	}
+	ul.big-list li div.list-content p {
+		display: none;
+	}
+	ul.big-list li .grid-comm {
+		display: none;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list-black {
+		width: 410px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	ul.big-list-black li {
+		width: 185px;
+		height: 200px;
+		margin: 0 0 20px 20px;
+	}
+	ul.big-list-black li img {
+		width: 50px;
+		height: 200px;
+	}
+	ul.big-list-black li .borderhover {
+		width: 50px;
+	}
+	ul.big-list-black li div.noimg {
+		height: 200px;
+	}
+	ul.big-list-black li div.list-content {
+		margin-right: 50px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list-black li h2 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px;
+		margin-top: 0px;
+	}
+	ul.big-list-black li div.list-content p {
+		display: none;
+	}
+	ul.big-list-black li .grid-comm {
+		display: none;
+	}
+	/* - Blog Style for modules - */
+	.home-sidebar ul.grid_list {
+		width: 410px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	.home-sidebar ul.grid_list li {
+		width: 185px;
+		height: 430px;
+		margin: 0 0 20px 20px;
+	}
+	.home-sidebar ul.grid_list li img {
+		width: 185px;
+	}
+	.home-sidebar ul.grid_list li .borderhover {
+		width: 185px;
+	}
+	.home-sidebar ul.meta-icons-home {
+		display: none;
+	}
+	.home-sidebar ul.grid_list li h2 {
+		font-size: 16px;
+	}
+	/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- not-found -- */
+	.not-found .searchform2 {
+		margin: 28px 0 0 0;
+		display: block;
+	}
+	.not-found .search-field {
+		width: 150px;
+	}
+	.not-found {
+		width: 240px;
+		padding: 50px 25px;
+	}
+	/* -- Single Share -- */
+	ul.meta-entry-top li ul.single-share a span {
+		display: none;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton i {
+		padding-right: 4px;
+		padding-left: 4px;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton {
+		padding: 6px 7px 5px 7px;
+	}
+	ul.meta-entry-top li span.updated {
+		display: none;
+	}
+	ul.meta-entry-top li ul.single-share li a {
+		padding: 6px 4px 5px 4px;
+	}
+	@supports (-webkit-touch-callout: none) {
+		ul.meta-entry-top li ul.single-share li a.fbbutton i {
+			padding-right: 10px;
+			padding-left: 4px;
+		}
+		ul.meta-entry-top li ul.single-share li a.fbbutton {
+			padding-right: 0px;
+		}
+	}
+	/* -- Related articles single -- */
+	.single-related-wrap {
+		width: 100%;
+	}
+	.prev-entry {
+		padding: 35px 10%;
+		text-align: center;
+		width: 80%;
+	}
+	.prev-articles h2 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.prev-articles .one_half,
+	.prev-articles .one_half_last {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	/* -- Page / Article Title -- */
+	h1.article-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.entry h1.page-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	/* - Top entry - */
+	.entry-top {
+		width: 355px;
+	}
+	ul.meta-entry-top li {
+		font-size: 12px;
+	}
+	/* -- Entry content style -- */
+	.entry {
+		width: 355px;
+	}
+	/* -- Entry bottom -- */
+	.entry-bottom {
+		width: 355px;
+	}
+	/* -- Responsive Images -- */
+	.entry iframe {
+		max-width: 355px;
+		height: 250px;
+		margin-left: 0px;
+	}
+	/* Qefood Recipe Style */
+	.qefood-note {
+		width: 300px;
+		margin: 25px auto;
+		padding: 15px 25px 25px 25px;
+	}
+	.qefood-note img {
+		width: 100px;
+		height: 75px;
+		object-fit: cover;
+		float: right;
+		padding: 15px;
+		border: 1px solid #fafafa;
+		border-radius: 5px;
+	}
+	div.article-source-link a {
+		font-size: 15px;
+	}
+	/* -- About Author -- */
+	.author-meta {
+		width: 390px;
+	}
+	.author-meta-entry {
+		padding: 45px 0px 0 0px;
+		float: left;
+		margin-bottom: -30px;
+	}
+	.author-info {
+		width: auto;
+		height: auto;
+		margin: 5px 0 -15px 0px;
+	}
+	.author-left-meta {
+		height: 180px !important;
+		float: left;
+	}
+	/* -- Prev and Next articles --*/
+	.bottom-rating {
+		padding: 0 15px 25px 0px;
+		left: 0;
+		bottom: -15px;
+		position: fixed;
+		z-index: 1;
+	}
+	div.rating-form form {
+		padding: 15px;
+	}
+	.bottom-rating div.rating-form h4 {
+		margin: 0px 0 0 0;
+		font-size: 14px;
+	}
+	.bottom-rating span.mr-star-rating i {
+		font-size: 14px !important;
+	}
+	.bottom-rating input.wp-block-button__link {
+		font-size: 12px;
+		padding: 10px 20px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Meta in two columns -- */
+	.widget_meta ul {
+		width: 95%;
+		margin-left: 0;
+	}
+	.widget_meta li {
+		width: 95%;
+		margin-left: 0;
+	}
+	.author-left-meta img.avatar {
+		width: 50px;
+		height: 50px;
+	}
+	.author-info p {
+		margin-left: 40px;
+		font-size: 14px;
+	}
+	.author-left-meta {
+		width: 50px;
+		height: 130px;
+		float: left;
+		padding: 0 30px 0 0;
+	}
+	div.author-info i.fa-home {
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	ul.author-social-top {
+		margin: 0px 0 0 0px !important;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+	ul.comment {
+		width: 355px;
+	}
+	.comments {
+		width: 355px;
+	}
+	ul.comment li span.comment-date {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- 404 page -- */
+	#anthemes-404 {
+		padding: 40px 0 0px 0;
+	}
+	#anthemes-404 .middle-404 {
+		width: 390px;
+		margin: 0 auto;
+	}
+	#anthemes-404 h1 {
+		font-size: 42px;
+		padding: 30px 0 20px 0;
+	}
+	#anthemes-404 p {
+		font-size: 18px;
+		line-height: 32px;
+	}
+	#anthemes-404 .one_half,
+	#anthemes-404 .one_half_last {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	#anthemes-404 .one_half_last {
+		margin-right: 0;
+	}
+	#anthemes-404 img {
+		width: 45%;
+		margin-top: 0px;
+		float: none;
+		margin-right: 0px;
+	}
+	/* -- Contact Form 7 Plugin -- */
+	form.wpcf7-form {
+		padding: 20px 25px 0px 25px;
+	}
+	/* -- Shop Style -- */
+	.woocommerce .woocommerce-result-count {
+		font-size: 11px;
+	}
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		width: 48% !important;
+	}
+	.woocommerce-product-search button {
+		padding: 10px 10px 11px 10px !important;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Footer -- */
+	.wrap-footer-middle {
+		width: 390px;
+	}
+	.wrap-footer {
+		width: 100%;
+		min-height: 75px;
+		margin: 0 auto;
+	}
+	footer {
+		background-color: #fafafa !important;
+	}
+	/* -- Top social icons -- */
+	.footer-social {
+		display: none;
+	}
+	/* -- Footer Notice -- */
+	.footer-notice {
+		padding-bottom: 100px;
+	}
+	.wrap-footer-small {
+		width: 380px;
+	}
+	.footer-notice-left {
+		width: 380px;
+		padding-bottom: 0px;
+	}
+	.footer-notice h2 {
+		font-size: 22px;
+		line-height: 36px;
+		text-align: center;
+	}
+	.footer-notice h4 {
+		text-align: center;
+		padding-bottom: 35px;
+		padding-top: 15px;
+		font-weight: 400;
+	}
+	footer .bt {
+		width: 70px;
+		float: none;
+		margin: 0 auto;
+	}
+	/* -- widgets -- */
+	footer .wrap-middle {
+		width: 390px;
+		padding: 30px 0 0px 0;
+	}
+	footer .textwidget {
+		margin-top: -40px !important;
+		padding-right: 0px;
+	}
+	footer .menu__item {
+		width: 250px;
+	}
+	div.wrap-middle .widget {
+		margin: 0 !important;
+		font-size: 16px;
+	}
+	div.wrap-middle .widget {
+		font-size: 16px;
+		width: 250px;
+		padding: 25px 70px;
+		background-color: #fff;
+	}
+	footer .one_fourth,
+	footer .one_fourth_last {
+		float: left;
+		width: auto;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	footer .one_fourth_last {
+		margin-right: 0%;
+	}
+	/* -- Copyright -- */
+	.copyright {
+		padding-top: 25px;
+		float: none;
+		text-align: center;
+	}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 360px) and (max-width: 409px) {
+	/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* - Header - */
+	.main-header {
+		width: 360px;
+	}
+	.wrap-center {
+		width: 360px;
+	}
+	.wrap-middle {
+		width: 360px;
+	}
+	/* - Layout content - */
+	.wrap-fullwidth {
+		width: 360px;
+		margin: 0 auto 30px auto;
+	}
+	.wrap-fullwidth-bg {
+		width: 360px;
+		margin: 30px auto 30px auto;
+	}
+	.wrap-fullwidth-bg .entry {
+		width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.home-sidebar {
+		width: 360px;
+	}
+	/* .page-content */
+	.single-content {
+		width: 360px;
+		margin: 30px 0 0 0;
+	}
+	.sidebar {
+		width: 360px;
+		float: left;
+		margin-top: 50px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	.sidebar .widget {
+		width: 250px;
+		margin-bottom: 25px;
+		display: block;
+		float: left;
+		margin-right: 0px;
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+	.sidebar .menu__item {
+		width: 250px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Logo -- */
+	.logo {
+		position: relative;
+		z-index: 203;
+	}
+	/* -- Search -- */
+	header .searchform2 {
+		height: auto;
+		float: right;
+		margin: -61px 50px 0 0;
+		position: relative;
+		z-index: 203;
+	}
+	header .search-field {
+		width: 40px;
+		-webkit-transition-duration: 400ms;
+		-webkit-transition-property: width;
+		-webkit-transition-timing-function: ease;
+		-moz-transition-duration: 400ms;
+		-moz-transition-property: width;
+		-moz-transition-timing-function: ease;
+		-o-transition-duration: 400ms;
+		-o-transition-property: width;
+		-o-transition-timing-function: ease;
+		transition-duration: 400ms;
+		transition-property: width;
+		transition-timing-function: ease;
+	}
+	header .search-field:focus {
+		width: 170px;
+		overflow: hidden;
+	}
+	/* -- Top social icons -- */
+	.top-social {
+		display: none;
+	}
+	/* -- Top Authors -- */
+	.authors {
+		width: 100%;
+		height: 40px;
+	}
+	ul.list-authors {
+		width: 360px;
+	}
+	ul.list-authors li {
+		width: 40px;
+		height: 40px;
+		margin: 0 10px 0 0;
+	}
+	ul.list-authors li img {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+	ul.list-authors li:nth-child(n+8) {
+		display: none;
+	}
+	ul.list-authors li div.tooltiptext {
+		display: none;
+	}
+	div.list-trophy {
+		margin: -60px 0 0 20px;
+	}
+	/* -- Responsive Menu Styles -- */
+	#respMenu li.current_page_item a,
+	#respMenu li.current-menu-ancestor a,
+	#respMenu li.current-menu-item a,
+	#respMenu li.current-menu-parent a {
+		background: transparent !important;
+		color: #FFF !important;
+	}
+	/* -- Popular Words -- */
+	.top-navigation {
+		display: none;
+	}
+	/* -- Drop Down Categories -- */
+	.dropbtn {
+		width: 35px;
+		padding: 0 0 4px 10px;
+		font-size: 0px;
+	}
+	.dropdown {
+		margin: 58px 0 0px 0;
+		width: 35px;
+	}
+	ul#myDropdown {
+		right: 0px;
+	}
+	ul#myDropdown li {
+		right: 0px;
+	}
+	.dropbtn::before {
+		font-size: 16px;
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+	/* -- Header button ADD -- */
+	header .bt {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Home content -- */
+	.home-content div.entry {
+		width: 87%;
+		margin: 40px 30px 0 30px !important;
+		padding: 30px 0 !important;
+	}
+	/* -- Sub Header Search -- */
+	.front-overlay-wrap h1 {
+		padding-top: 40px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 32px;
+		word-spacing: 4px;
+	}
+	.front-overlay-content .searchform2 {
+		width: 350px;
+	}
+	.front-overlay-content .searchform2 .search-field {
+		width: 268px;
+	}
+	/* -- Categories in 4 columns Big Search -- */
+	ul.cat-4cols {
+		width: 360px;
+		margin: 30px 0 30px -30px;
+		display: inline-block;
+	}
+	ul.cat-4cols li {
+		width: 45%;
+		margin-left: 5%;
+	}
+	ul.cat-4cols li a {
+		font-size: 16px;
+		font-weight: 500;
+		margin-right: 5px;
+	}
+	ul.cat-4cols li.cat-item span b {
+		display: none;
+	}
+	ul.cat-4cols li:nth-child(n+9) {
+		display: none;
+	}
+	/* -- Blog Style -- */
+	ul.grid_list {
+		margin: 0 0 0 -20px;
+	}
+	ul.grid_list li {
+		width: 170px;
+		margin: 0 0 20px 20px;
+	}
+	ul.grid_list li img {
+		width: 170px;
+	}
+	ul.grid_list li div.grid-content {
+		padding: 30px 20px 25px 20px;
+	}
+	ul.grid_list li .grid-comm {
+		display: none;
+	}
+	/* - views- */
+	div.post-views {
+		display: none;
+	}
+	/* -- Ranting Home -- */
+	.home-rating {
+		margin: 11px 0 0 20px;
+		float: left;
+	}
+	.home-rating span.star-result,
+	.home-rating span.count {
+		font-size: 12px !important;
+	}
+	/* - Blog Style Ads - */
+	ul.grid_list li.homeadv,
+	ul.grid_list li.homeadv img {
+		width: 170px !important;
+		min-height: 183px;
+	}
+	/* -- Posts hover border -- */
+	.borderhover {
+		width: 170px;
+	}
+	/* -- Icons -- */
+	ul.meta-icons-home {
+		display: none;
+	}
+	/* -- Default pagination -- */
+	.defaultpag {
+		width: 290px;
+	}
+	.defaultpag a {
+		font-size: 14px;
+		padding: 7px 15px 8px 15px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	/* -- Title Module Widget -- */
+	.menu__item-name {
+		font-size: 20px;
+	}
+	.menu--adsila {
+		font-size: 14px;
+	}
+	.menu__item {
+		width: 320px;
+	}
+	/* -- Modul carousel -- */
+	.carousel {
+		width: 360px;
+	}
+	.carousel-item__image {
+		width: 230px;
+		height: 350px;
+	}
+	.carousel-item__image img {
+		width: 230px;
+		height: 350px !important;
+	}
+	.carousel-item__info {
+		padding: 0 25px;
+		width: 60%;
+	}
+	.carousel-item__title {
+		font-size: 22px;
+		line-height: 32px;
+		margin-bottom: 25px;
+	}
+	.carousel-item__description {
+		display: none;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list {
+		width: 380px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	ul.big-list li {
+		width: 170px;
+		height: 200px;
+		margin: 0 0 20px 20px;
+	}
+	ul.big-list li img {
+		width: 40px;
+		height: 200px;
+	}
+	ul.big-list li .borderhover {
+		width: 40px;
+	}
+	ul.big-list li div.noimg {
+		height: 200px;
+	}
+	ul.big-list li div.list-content {
+		margin-left: 40px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list li h2 {
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-top: 0px;
+	}
+	ul.big-list li div.list-content p {
+		display: none;
+	}
+	ul.big-list li .grid-comm {
+		display: none;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list-black {
+		width: 380px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	ul.big-list-black li {
+		width: 170px;
+		height: 200px;
+		margin: 0 0 20px 20px;
+	}
+	ul.big-list-black li img {
+		width: 40px;
+		height: 200px;
+	}
+	ul.big-list-black li .borderhover {
+		width: 40px;
+	}
+	ul.big-list-black li div.noimg {
+		height: 200px;
+	}
+	ul.big-list-black li div.list-content {
+		margin-right: 40px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list-black li h2 {
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-top: 0px;
+	}
+	ul.big-list-black li div.list-content p {
+		display: none;
+	}
+	ul.big-list-black li .grid-comm {
+		display: none;
+	}
+	/* - Blog Style for modules - */
+	.home-sidebar ul.grid_list {
+		width: 380px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	.home-sidebar ul.grid_list li {
+		width: 170px;
+		height: 415px;
+		margin: 0 0 20px 20px;
+	}
+	.home-sidebar ul.grid_list li img {
+		width: 170px;
+	}
+	.home-sidebar ul.grid_list li .borderhover {
+		width: 170px;
+	}
+	.home-sidebar ul.meta-icons-home {
+		display: none;
+	}
+	.home-sidebar ul.grid_list li h2 {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- not-found -- */
+	.not-found .searchform2 {
+		margin: 28px 0 0 0;
+		display: block;
+	}
+	.not-found .search-field {
+		width: 150px;
+	}
+	.not-found {
+		width: 240px;
+		padding: 50px 25px;
+	}
+	/* -- Single Share -- */
+	ul.meta-entry-top li ul.single-share a span {
+		display: none;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton i {
+		padding-right: 4px;
+		padding-left: 4px;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton {
+		padding: 6px 5px 5px 5px;
+	}
+	ul.meta-entry-top li span.updated {
+		display: none;
+	}
+	ul.meta-entry-top li ul.single-share li a {
+		padding: 6px 2px 5px 2px;
+	}
+	/* -- Related articles single -- */
+	.single-related-wrap {
+		width: 100%;
+	}
+	.prev-entry {
+		padding: 35px 10%;
+		text-align: center;
+		width: 80%;
+	}
+	.prev-articles h2 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.prev-articles .one_half,
+	.prev-articles .one_half_last {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	/* -- Page / Article Title -- */
+	h1.article-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.entry h1.page-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	/* - Top entry - */
+	.entry-top {
+		width: 325px;
+	}
+	ul.meta-entry-top li {
+		font-size: 12px;
+	}
+	/* - views- */
+	ul.meta-entry-top li.post-views {
+		padding: 0 0px 0 5px;
+		font-size: 11px;
+	}
+	ul.meta-entry-top li.post-views i {
+		font-size: 16px;
+	}
+	/* -- Entry content style -- */
+	.entry {
+		width: 325px;
+	}
+	/* -- Entry bottom -- */
+	.entry-bottom {
+		width: 325px;
+	}
+	/* -- Responsive Images -- */
+	.entry iframe {
+		max-width: 325px;
+		height: 220px;
+		margin-left: 0px;
+	}
+	/* Qefood Recipe Style */
+	.qefood-note {
+		width: 290px;
+		margin: 25px auto;
+		padding: 15px 15px 25px 15px;
+	}
+	.qefood-note img {
+		width: 100px;
+		height: 75px;
+		object-fit: cover;
+		float: right;
+		padding: 10px;
+	}
+	div.article-source-link a {
+		font-size: 14px;
+		margin: 15px;
+	}
+	/* -- About Author -- */
+	.author-meta {
+		width: 355px;
+	}
+	.author-meta-entry {
+		padding: 45px 0px 0 0px;
+		float: left;
+		margin-bottom: -30px;
+	}
+	.author-info {
+		width: auto;
+		height: auto;
+		margin: 5px 0 -15px 35px;
+	}
+	.author-left-meta img.avatar {
+		width: 50px;
+		height: 50px;
+	}
+	.author-info p {
+		margin-left: 40px;
+		font-size: 14px;
+	}
+	.author-left-meta {
+		width: 50px;
+		height: 150px;
+		float: left;
+		padding: 0 30px 0 0;
+	}
+	div.author-info i.fa-home {
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	ul.author-social-top {
+		margin: 0px 0 0 45px !important;
+	}
+	/* -- Prev and Next articles --*/
+	.bottom-rating {
+		padding: 0 15px 25px 0px;
+		left: 0;
+		bottom: -15px;
+		position: fixed;
+		z-index: 1;
+	}
+	div.rating-form form {
+		padding: 15px;
+	}
+	.bottom-rating div.rating-form h4 {
+		margin: 0px 0 0 0;
+		font-size: 14px;
+	}
+	.bottom-rating span.mr-star-rating i {
+		font-size: 14px !important;
+	}
+	.bottom-rating input.wp-block-button__link {
+		font-size: 12px;
+		padding: 10px 20px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Meta in two columns -- */
+	.widget_meta ul {
+		width: 95%;
+		margin-left: 0;
+	}
+	.widget_meta li {
+		width: 95%;
+		margin-left: 0;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+	ul.comment {
+		width: 325px;
+	}
+	.comments {
+		width: 325px;
+	}
+	ul.comment li span.comment-date {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- 404 page -- */
+	#anthemes-404 {
+		padding: 40px 0 0px 0;
+	}
+	#anthemes-404 .middle-404 {
+		width: 360px;
+		margin: 0 auto;
+	}
+	#anthemes-404 h1 {
+		font-size: 42px;
+		padding: 30px 0 20px 0;
+	}
+	#anthemes-404 p {
+		font-size: 18px;
+		line-height: 32px;
+	}
+	#anthemes-404 .one_half,
+	#anthemes-404 .one_half_last {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	#anthemes-404 .one_half_last {
+		margin-right: 0;
+	}
+	#anthemes-404 img {
+		width: 45%;
+		margin-top: 0px;
+		float: none;
+		margin-right: 0px;
+	}
+	/* -- Contact Form 7 Plugin -- */
+	form.wpcf7-form {
+		padding: 20px 25px 0px 25px;
+	}
+	/* -- Shop Style -- */
+	.woocommerce .woocommerce-result-count {
+		font-size: 9px;
+	}
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		width: 48% !important;
+	}
+	.woocommerce-product-search button {
+		padding: 10px 10px 11px 10px !important;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Footer -- */
+	.wrap-footer-middle {
+		width: 360px;
+	}
+	.wrap-footer {
+		width: 100%;
+		min-height: 75px;
+		margin: 0 auto;
+	}
+	footer {
+		background-color: #fafafa !important;
+	}
+	/* -- Top social icons -- */
+	.footer-social {
+		display: none;
+	}
+	/* -- Footer Notice -- */
+	.footer-notice {
+		padding-bottom: 100px;
+	}
+	.wrap-footer-small {
+		width: 350px;
+	}
+	.footer-notice-left {
+		width: 350px;
+		padding-bottom: 0px;
+	}
+	.footer-notice h2 {
+		font-size: 22px;
+		line-height: 36px;
+		text-align: center;
+	}
+	.footer-notice h4 {
+		text-align: center;
+		padding-bottom: 35px;
+		padding-top: 15px;
+		font-weight: 400;
+	}
+	footer .bt {
+		width: 70px;
+		float: none;
+		margin: 0 auto;
+	}
+	/* -- widgets -- */
+	footer .wrap-middle {
+		width: 360px;
+		padding: 30px 0 0px 0;
+	}
+	footer .textwidget {
+		margin-top: -40px !important;
+		padding-right: 0px;
+	}
+	footer .menu__item {
+		width: 250px;
+	}
+	div.wrap-middle .widget {
+		margin: 0 !important;
+		font-size: 16px;
+	}
+	div.wrap-middle .widget {
+		font-size: 16px;
+		width: 250px;
+		padding: 25px 55px;
+		background-color: #fff;
+	}
+	footer .one_fourth,
+	footer .one_fourth_last {
+		float: left;
+		width: auto;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	footer .one_fourth_last {
+		margin-right: 0%;
+	}
+	/* -- Copyright -- */
+	.copyright {
+		padding-top: 25px;
+		float: none;
+		text-align: center;
+	}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (max-width: 359px) {
+	/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* - Header - */
+	.main-header {
+		width: 305px;
+	}
+	.wrap-center {
+		width: 305px;
+	}
+	.wrap-middle {
+		width: 305px;
+	}
+	/* - Layout content - */
+	.wrap-fullwidth {
+		width: 305px;
+		margin: 0 auto 30px auto;
+	}
+	.wrap-fullwidth-bg {
+		width: 305px;
+		margin: 30px auto 30px auto;
+	}
+	.wrap-fullwidth-bg .entry {
+		width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.home-sidebar {
+		width: 305px;
+	}
+	/* .page-content */
+	.single-content {
+		width: 305px;
+		margin: 30px 0 0 0;
+	}
+	.sidebar {
+		width: 305px;
+		float: left;
+		margin-top: 50px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	.sidebar .widget {
+		width: 250px;
+		margin-bottom: 25px;
+		display: block;
+		float: left;
+		margin-right: 0px;
+		padding-left: 27.5px;
+		padding-right: 27.5px;
+	}
+	.sidebar .menu__item {
+		width: 250px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Logo -- */
+	.logo {
+		position: relative;
+		z-index: 203;
+	}
+	/* -- Search -- */
+	header .searchform2 {
+		height: auto;
+		float: right;
+		margin: -61px 50px 0 0;
+		position: relative;
+		z-index: 203;
+	}
+	header .search-field {
+		width: 20px;
+		-webkit-transition-duration: 400ms;
+		-webkit-transition-property: width;
+		-webkit-transition-timing-function: ease;
+		-moz-transition-duration: 400ms;
+		-moz-transition-property: width;
+		-moz-transition-timing-function: ease;
+		-o-transition-duration: 400ms;
+		-o-transition-property: width;
+		-o-transition-timing-function: ease;
+		transition-duration: 400ms;
+		transition-property: width;
+		transition-timing-function: ease;
+	}
+	header .search-field:focus {
+		width: 170px;
+		overflow: hidden;
+	}
+	/* -- Top social icons -- */
+	.top-social {
+		display: none;
+	}
+	/* -- Top Authors -- */
+	.authors {
+		width: 100%;
+		height: 40px;
+	}
+	ul.list-authors {
+		width: 305px;
+	}
+	ul.list-authors li {
+		width: 40px;
+		height: 40px;
+		margin: 0 10px 0 0;
+	}
+	ul.list-authors li img {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+	ul.list-authors li:nth-child(n+7) {
+		display: none;
+	}
+	ul.list-authors li div.tooltiptext {
+		display: none;
+	}
+	div.list-trophy {
+		margin: -60px 0 0 20px;
+	}
+	/* -- Responsive Menu Styles -- */
+	#respMenu li.current_page_item a,
+	#respMenu li.current-menu-ancestor a,
+	#respMenu li.current-menu-item a,
+	#respMenu li.current-menu-parent a {
+		background: transparent !important;
+		color: #FFF !important;
+	}
+	/* -- Popular Words -- */
+	.top-navigation {
+		display: none;
+	}
+	/* -- Drop Down Categories -- */
+	.dropbtn {
+		width: 35px;
+		padding: 0 0 4px 10px;
+		font-size: 0px;
+	}
+	.dropdown {
+		margin: 68px 0 0px 0;
+		width: 35px;
+	}
+	ul#myDropdown {
+		right: 0px;
+	}
+	ul#myDropdown li {
+		right: 0px;
+	}
+	.dropbtn::before {
+		font-size: 16px;
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+	/* -- Header button ADD -- */
+	header .bt {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Home content -- */
+	.home-content div.entry {
+		width: 87%;
+		margin: 40px 30px 0 30px !important;
+		padding: 30px 0 !important;
+	}
+	/* -- Sub Header Search -- */
+	.front-overlay-wrap h1 {
+		padding-top: 40px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 32px;
+		word-spacing: 4px;
+	}
+	.front-overlay-content .searchform2 {
+		width: 305px;
+	}
+	.front-overlay-content .searchform2 .search-field {
+		width: 223px;
+	}
+	/* -- Categories in 4 columns Big Search -- */
+	ul.cat-4cols {
+		width: 305px;
+		margin: 30px 0 30px -30px;
+		display: inline-block;
+	}
+	ul.cat-4cols li {
+		width: 45%;
+		margin-left: 5%;
+	}
+	ul.cat-4cols li a {
+		font-size: 16px;
+		font-weight: 500;
+		margin-right: 5px;
+	}
+	ul.cat-4cols li.cat-item span b {
+		display: none;
+	}
+	ul.cat-4cols li:nth-child(n+9) {
+		display: none;
+	}
+	/* -- Blog Style -- */
+	ul.grid_list {
+		margin: 0 0 0 0px;
+	}
+	ul.grid_list li {
+		width: 305px;
+		margin: 0 0 20px 0px;
+	}
+	ul.grid_list li img {
+		width: 305px;
+	}
+	ul.grid_list li div.grid-content {
+		padding: 30px 25px 25px 25px;
+	}
+	/* - views- */
+	div.post-views {
+		display: block;
+	}
+	/* -- Ranting Home -- */
+	.home-rating {
+		margin: 11px 20px 0 0px;
+		float: right;
+	}
+	.home-rating span.star-result,
+	.home-rating span.count {
+		font-size: 12px !important;
+	}
+	/* - Blog Style Ads - */
+	ul.grid_list li.homeadv,
+	ul.grid_list li.homeadv img {
+		width: 305px !important;
+		min-height: 183px;
+	}
+	/* -- Posts hover border -- */
+	.borderhover {
+		width: 305px;
+	}
+	/* -- Icons -- */
+	ul.meta-icons-home {
+		display: none;
+	}
+	/* -- Default pagination -- */
+	.defaultpag {
+		width: 290px;
+	}
+	.defaultpag a {
+		font-size: 14px;
+		padding: 7px 15px 8px 15px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	/* -- Title Module Widget -- */
+	.menu__item-name {
+		font-size: 20px;
+	}
+	.menu--adsila {
+		font-size: 14px;
+	}
+	.menu__item {
+		width: 260px;
+	}
+	/* -- Modul carousel -- */
+	.carousel {
+		width: 305px;
+	}
+	.carousel-item__image {
+		width: 230px;
+		height: 350px;
+	}
+	.carousel-item__image img {
+		width: 230px;
+		height: 350px !important;
+	}
+	.carousel-item__info {
+		padding: 0 25px;
+		width: 60%;
+	}
+	.carousel-item__title {
+		font-size: 22px;
+		line-height: 32px;
+		margin-bottom: 25px;
+	}
+	.carousel-item__description {
+		display: none;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list {
+		width: 305px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	ul.big-list li {
+		width: 305px;
+		height: 200px;
+		margin: 0 0 20px 20px;
+	}
+	ul.big-list li img {
+		width: 160px;
+		height: 200px;
+	}
+	ul.big-list li .borderhover {
+		width: 160px;
+	}
+	ul.big-list li div.noimg {
+		height: 200px;
+	}
+	ul.big-list li div.list-content {
+		margin-left: 160px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list li h2 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-top: 0px;
+	}
+	ul.big-list li div.list-content p {
+		display: none;
+	}
+	ul.big-list li .grid-comm {
+		display: none;
+	}
+	/* - Blog Style / Masonry - */
+	ul.big-list-black {
+		width: 305px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	ul.big-list-black li {
+		width: 305px;
+		height: 200px;
+		margin: 0 0 20px 20px;
+	}
+	ul.big-list-black li img {
+		width: 160px;
+		height: 200px;
+	}
+	ul.big-list-black li .borderhover {
+		width: 160px;
+	}
+	ul.big-list-black li div.noimg {
+		height: 200px;
+	}
+	ul.big-list-black li div.list-content {
+		margin-right: 160px;
+		padding: 20px 20px 0 20px;
+	}
+	ul.big-list-black li h2 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-top: 0px;
+	}
+	ul.big-list-black li div.list-content p {
+		display: none;
+	}
+	ul.big-list-black li .grid-comm {
+		display: none;
+	}
+	/* - Blog Style for modules - */
+	.home-sidebar ul.grid_list {
+		width: 305px;
+		height: auto;
+		margin: 0 0 -20px -20px;
+	}
+	.home-sidebar ul.grid_list li {
+		width: 305px;
+		height: 400px;
+		margin: 0 0 20px 20px;
+	}
+	.home-sidebar ul.grid_list li img {
+		width: 305px;
+	}
+	.home-sidebar ul.grid_list li .borderhover {
+		width: 305px;
+	}
+	.home-sidebar ul.meta-icons-home {
+		display: none;
+	}
+	.home-sidebar ul.grid_list li h2 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- not-found -- */
+	.not-found .searchform2 {
+		margin: 28px 0 0 0;
+		display: block;
+	}
+	.not-found .search-field {
+		width: 150px;
+	}
+	.not-found {
+		width: 240px;
+		padding: 50px 25px;
+	}
+	/* -- Single Share -- */
+	ul.meta-entry-top li ul.single-share a span {
+		display: none;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton i {
+		padding-right: 4px;
+		padding-left: 4px;
+	}
+	ul.meta-entry-top li ul.single-share li a.fbbutton {
+		padding: 6px 3px 5px 3px;
+	}
+	ul.meta-entry-top li span.updated {
+		display: none;
+	}
+	ul.meta-entry-top li ul.single-share li a {
+		padding: 6px 0px 5px 0px;
+	}
+	/* -- Related articles single -- */
+	.single-related-wrap {
+		width: 100%;
+	}
+	.prev-entry {
+		padding: 35px 10%;
+		text-align: center;
+		width: 80%;
+	}
+	.prev-articles h2 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.prev-articles .one_half,
+	.prev-articles .one_half_last {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	/* -- Page / Article Title -- */
+	h1.article-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.entry h1.page-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	/* - Top entry - */
+	.entry-top {
+		width: 280px;
+	}
+	ul.meta-entry-top li {
+		font-size: 12px;
+	}
+	/* - views- */
+	ul.meta-entry-top li.post-views {
+		padding: 0 0px 0 0px;
+		font-size: 10px;
+	}
+	ul.meta-entry-top li.post-views i {
+		font-size: 14px;
+	}
+	/* -- Entry content style -- */
+	.entry {
+		width: 280px;
+	}
+	/* -- Entry bottom -- */
+	.entry-bottom {
+		width: 280px;
+	}
+	/* -- Responsive Images -- */
+	.entry iframe {
+		max-width: 280px;
+		height: 180px;
+		margin-left: 0px;
+	}
+	/* Qefood Recipe Style */
+	.qefood-note {
+		width: 240px;
+		margin: 25px auto;
+		padding: 15px 15px 25px 15px;
+	}
+	.qefood-note img {
+		width: 70px;
+		height: 55px;
+		object-fit: cover;
+		float: right;
+		padding: 10px;
+	}
+	div.article-source-link a {
+		font-size: 12px;
+		margin: 15px;
+	}
+	/* -- About Author -- */
+	.author-meta {
+		width: 305px;
+	}
+	.author-meta-entry {
+		padding: 45px 0px 0 0px;
+		float: left;
+		margin-bottom: -30px;
+	}
+	.author-info {
+		width: auto;
+		height: auto;
+		margin: 5px 0 -15px 35px;
+	}
+	.author-left-meta img.avatar {
+		width: 50px;
+		height: 50px;
+	}
+	.author-info p {
+		margin-left: 40px;
+		font-size: 13px;
+	}
+	.author-left-meta {
+		width: 50px;
+		height: 150px;
+		float: left;
+		padding: 0 30px 0 0;
+	}
+	div.author-info i.fa-home {
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	ul.author-social-top {
+		margin: 0px 0 0 45px !important;
+	}
+	/* -- Prev and Next articles --*/
+	.bottom-rating {
+		padding: 0 15px 25px 0px;
+		left: 0;
+		bottom: -15px;
+		position: fixed;
+		z-index: 1;
+	}
+	div.rating-form form {
+		padding: 15px;
+	}
+	.bottom-rating div.rating-form h4 {
+		margin: 0px 0 0 0;
+		font-size: 14px;
+	}
+	.bottom-rating span.mr-star-rating i {
+		font-size: 14px !important;
+	}
+	.bottom-rating input.wp-block-button__link {
+		font-size: 12px;
+		padding: 10px 20px;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Meta in two columns -- */
+	.widget_meta ul {
+		width: 95%;
+		margin-left: 0;
+	}
+	.widget_meta li {
+		width: 95%;
+		margin-left: 0;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+	ul.comment {
+		width: 280px;
+	}
+	.comments {
+		width: 280px;
+	}
+	ul.comment li span.comment-date {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- 404 page -- */
+	#anthemes-404 {
+		padding: 40px 0 0px 0;
+	}
+	#anthemes-404 .middle-404 {
+		width: 305px;
+		margin: 0 auto;
+	}
+	#anthemes-404 h1 {
+		font-size: 38px;
+		padding: 30px 0 20px 0;
+	}
+	#anthemes-404 p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	#anthemes-404 .one_half,
+	#anthemes-404 .one_half_last {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	#anthemes-404 .one_half_last {
+		margin-right: 0;
+	}
+	#anthemes-404 img {
+		width: 45%;
+		margin-top: 0px;
+		float: none;
+		margin-right: 0px;
+	}
+	/* -- Contact Form 7 Plugin -- */
+	form.wpcf7-form {
+		padding: 20px 25px 0px 25px;
+	}
+	/* -- Shop Style -- */
+	.woocommerce .woocommerce-result-count {
+		display: none;
+	}
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		width: 48% !important;
+	}
+	.woocommerce-product-search button {
+		padding: 10px 10px 11px 10px !important;
+	}
+	/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+	/* -- Footer -- */
+	.wrap-footer-middle {
+		width: 305px;
+	}
+	.wrap-footer {
+		width: 100%;
+		min-height: 100px;
+		margin: 0 auto;
+	}
+	footer {
+		background-color: #fafafa !important;
+	}
+	/* -- Top social icons -- */
+	.footer-social {
+		display: none;
+	}
+	/* -- Footer Notice -- */
+	.footer-notice {
+		padding-bottom: 100px;
+	}
+	.wrap-footer-small {
+		width: 300px;
+	}
+	.footer-notice-left {
+		width: 300px;
+		padding-bottom: 0px;
+	}
+	.footer-notice h2 {
+		font-size: 22px;
+		line-height: 36px;
+		text-align: center;
+	}
+	.footer-notice h4 {
+		text-align: center;
+		padding-bottom: 35px;
+		padding-top: 15px;
+		font-weight: 400;
+	}
+	footer .bt {
+		width: 70px;
+		float: none;
+		margin: 0 auto;
+	}
+	/* -- widgets -- */
+	footer .wrap-middle {
+		width: 305px;
+		padding: 30px 0 0px 0;
+	}
+	footer .textwidget {
+		margin-top: -40px !important;
+		padding-right: 0px;
+	}
+	footer .menu__item {
+		width: 250px;
+	}
+	div.wrap-middle .widget {
+		margin: 0 !important;
+		font-size: 16px;
+	}
+	div.wrap-middle .widget {
+		font-size: 16px;
+		width: 250px;
+		padding: 25px 27.5px;
+		background-color: #fff;
+	}
+	footer .one_fourth,
+	footer .one_fourth_last {
+		float: left;
+		width: auto;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	footer .one_fourth_last {
+		margin-right: 0%;
+	}
+	/* -- Copyright -- */
+	.copyright {
+		padding-top: 25px;
+		float: none;
+		text-align: center;
+	}
+}

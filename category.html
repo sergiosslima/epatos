@@ -1,0 +1,674 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+
+    <!-- Mobile Device Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <!-- Theme output -->
+    <title>Qefood - Community Recipes Sharing HTML Template</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/colors/default.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/all.min.css" type="text/css" />
+    <link rel='stylesheet' href='css/icofont/css/icofont.css' type='text/css' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' type='text/css'>
+
+    <!-- Java script (The rest of js files are placed in the footer) -->
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+
+</head>
+<body> 
+
+ 
+<!-- Begin Header -->
+<header> 
+        <!-- Main header -->
+        <div class="main-header">
+
+            <!-- Logo -->  
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="Qefood" /></a>
+ 
+            <!-- Navigation Menu -->
+            <nav>
+                <!-- Menu Toggle btn-->
+                <div class="menu-toggle">
+                    <button type="button" id="menu-btn">
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div><!-- end .menu-toggle -->
+
+                <ul id="respMenu" class="ant-responsive-menu" data-menu-style="horizontal">
+                    <li><a href="index.html">Home</a>
+                        <ul class="sub-menu">
+                            <li><a href="index-blog.html">Home Blog</a></li>
+                            <li><a href="index-modules.html">Home Modules</a></li>
+                        </ul>
+                    </li>
+                    <li class="current-menu-item"><a href="blog.html">Blog</a>
+                        <ul class="sub-menu">
+                            <li><a href="blog.html">Blog Page</a></li>
+                            <li><a href="blog-post.html">Post with Image</a></li>
+                            <li><a href="blog-post-video.html">Post with Video</a></li>
+                            <li><a href="blog-post-full-width.html">Post Full Width</a></li>
+                            <li><a href="category.html">Category Archive</a></li>
+                            <li><a href="search.html">Search Archive</a></li>
+                            <li><a href="author-profile.html">Author Profile</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="category.html">Food</a></li>
+                    <li><a href="category.html">Topics</a>
+                        <ul class="sub-menu">
+                            <li><a href="category.html">Recipes</a></li>
+                            <li><a href="category.html">Dessert</a></li>
+                            <li><a href="category.html">Family Recipes</a></li>
+                            <li><a href="category.html">Super Easy</a></li>
+                            <li><a href="category.html">Breakfast</a></li>
+                            <li><a href="category.html">Dinner Food</a></li>
+                            <li><a href="category.html">Vegetarian</a></li>
+                            <li><a href="category.html">Cooking Style</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Features</a>
+                        <ul class="sub-menu">
+                            <li><a href="add-post.html">Add Post</a></li>
+                            <li><a href="author-profile.html">User Posts</a></li>
+                            <li><a href="full-width.html">Full Width</a></li>
+                            <li><a href="sample-page.html">Sample Page</a></li>
+                            <li><a href="shortcodes.html">Shortcodes</a></li>
+                            <li><a href="typography.html">Typography</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-114" class="right"><a href="https://themeforest.net/user/an-themes/portfolio" target="_blank"><i class="fas fa-shopping-bag"></i> Buy Now</a></li>
+                </ul><!-- end .respMenu -->                
+            </nav>
+            
+            <!-- Upload Button -->
+            <a class="bt more-bt" href="add-post.html">
+                <span class="fl"></span><span class="sfl"></span><span class="cross"></span><i></i>
+                <p>Add Post</p>
+            </a>
+            
+            <!-- Search form -->
+            <form class="searchform2" method="get" action="search.html">
+                <input placeholder="Enter Keywords ..." type="text" name="s" data-swplive="true" data-swpengine="default" data-swpconfig="default" class="search-field" />
+                <input type="submit" value="&#xf002;" class="buttonicon" />
+            </form>     
+
+            <!-- Social icons -->
+            <div class="top-social">
+                <a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook-f"></i></a>          
+                <a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"></i></a> 
+                <a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="clear"></div>
+        </div><!-- end .main-header -->
+
+
+        <!-- Popular Tags -->
+        <div class="top-navigation">
+            <div class="wrap-center">
+                <div class="popular-words">
+                    <strong>Popular Topics</strong> 
+                    <a href="category.html">food<span> (13)</span></a>
+                    <a href="category.html">plate<span> (5)</span></a>
+                    <a href="category.html">salad<span> (4)</span></a>
+                    <a href="category.html">meal<span> (3)</span></a>
+                    <a href="category.html">breakfast<span> (3)</span></a>
+                    <a href="category.html">pancake<span> (2)</span></a>
+                    <a href="category.html">fruit<span> (2)</span></a>
+                    <a href="category.html">egg<span> (2)</span></a>
+                    <a href="category.html">bake<span> (2)</span></a>
+                    <a href="category.html">bread<span> (1)</span></a>
+                </div>
+            </div><!-- end .wrap-center -->
+        </div><div class="clear"></div>     
+</header><!-- end #header -->
+
+
+
+<!-- Begin Wrap Content -->
+<div class="wrap-fullwidth"> 
+
+    <!-- Title Section -->
+    <nav class="menu--adsila">
+        <div class="menu__item nomargin">
+            <span class="menu__item-label">Browsing Category</span> 
+            <span class="menu__item-name">Food</span>
+        </div>
+    </nav><!-- end .menu-adsila -->
+    <div class="clear"></div>
+
+
+    <!-- Latest News (Grid List) -->
+    <ul class="grid_list js-masonry">
+
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/minimalistbaker_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">minimalistbaker</a></div>            
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="180" src="demo/brooke-lark-344291-unsplash-250x180.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Dessert</a> </div>
+                <!-- Title --><a href="#"><h2>Together with red and white bakers twine</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 23, 2021</div>
+                <!-- Comments --><div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">3 </a></div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 16 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/mollyyeh_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">mollyyeh</a></div>             
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="167" src="demo/toa-heftiba-243296-unsplash-250x167.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Dessert</a> </div>
+                <!-- Title --><a href="#"><h2>Pomegranate seeds with a fruity drink</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 22, 2021</div>
+                <!-- Comments --><div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">2 </a></div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 10 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- Home ADV -->
+        <li class="homeadv"><a href="#"><img src="demo/250img.png" alt="img" /></a></li>
+        <!-- Home ADV -->         
+            
+
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/silverspies_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">silverspies</a></div>            
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="275" src="demo/dovile-ramoskaite-xX9SmqQCbFY-unsplash-250x275.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Breakfast</a> </div>
+                <!-- Title --><a href="#"><h2>Strawberry, spinach and feta salad an healthy recipe</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 21, 2021</div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 16 Views</span></div>               
+                <div class="home-rating">
+                    <div class="rating">
+                        <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span class="gold">&#9734;</span><span class="gold">&#9734;</span>
+                    </div><div class="clear"></div>
+                </div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/judykim_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">judykim</a></div>
+                <ul class="meta-icons-home">
+                    <li class="trending-lm"><i class="fas fa-bolt"></i><span class="tooltiptext">Trending post!</span></li> 
+                </ul><div class="clear"></div>              
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="333" src="demo/img5-250x333.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Dessert</a> </div>
+                <!-- Title --><a href="#"><h2>Coffee Break, I call this my week lifesaver</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 20, 2021</div>
+                <!-- Comments --><div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">6 </a></div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 13 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/issycroker_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">issycroker</a></div>             
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="300" src="demo/monika-grabkowska-FVf1ESEBuMI-unsplash-250x300.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Diet &amp; Healthy</a> </div>
+                <!-- Title --><a href="#"><h2>Spiced Butternut Squash Stew with Couscous</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 19, 2021</div>
+                <!-- Comments --><div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">1 </a></div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 8 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- Home ADV -->
+        <li class="homeadv"><a href="#"><img src="demo/250img.png" alt="img" /></a></li>
+        <!-- Home ADV -->   
+
+
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/issycroker_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">issycroker</a></div>             
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="375" src="demo/monika-grabkowska-646499-unsplash-250x375.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Cooking Style</a> </div>
+                <!-- Title --><a href="#"><h2>Thai fried prawn &amp; pineapple rice</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 18, 2021</div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 11 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/julskitchen_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">julskitchen</a></div>             
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="167" src="demo/brooke-lark-W9OKrxBqiZA-unsplash-250x167.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Family Recipes</a> </div>
+                <!-- Title --><a href="#"><h2>Chorizo &amp; mozzarella gnocchi bake</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 17, 2021</div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 7 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/mollyyeh_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">mollyyeh</a></div>             
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="217" src="demo/louis-hansel-wOISTbCpUCc-unsplash-250x217.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Family Recipes</a> </div>
+                <!-- Title --><a href="#"><h2>Dublin Coddle &#8211; Irish Sausage, Bacon, Onion and Potato Hotpot</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 16, 2021</div>
+                <!-- Comments --><div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">1 </a></div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 7 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/silverspies_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">silverspies</a></div>             
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="167" src="demo/brooke-lark-of0pMsWApZE-unsplash-250x167.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Dessert</a> </div>
+                <!-- Title --><a href="#"><h2>Amazing Recipe No Bake Cherry Cheesecake Pie</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 15, 2021</div>
+                <!-- Comments --><div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">1 </a></div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 16 Views</span></div>               
+                <div class="home-rating">
+                    <div class="rating">
+                        <span>&#9734;</span><span class="gold">&#9734;</span><span class="gold">&#9734;</span><span class="gold">&#9734;</span><span class="gold">&#9734;</span>
+                    </div><div class="clear"></div>
+                </div>              
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+            
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/thaliaho_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">thaliaho</a></div>             
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <img width="250" height="201" src="demo/louis-hansel-K47107aP8UU-unsplash-250x201.jpg" class="attachment-qefood-wp-thumbnail-blog-grid" alt="img" loading="lazy" /><a href="#"></a>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Diet &amp; Healthy</a> </div>
+                <!-- Title --><a href="#"><h2>The Ultimate Corned Beef &amp; Cabbage</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 14, 2021</div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 8 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+
+        
+        <!-- #Post# -->
+        <li class="post">
+            <div class="grid-top">
+                <div class="grid-useravatar"><a href="#"><img alt='avatar' src='demo/whatbreakfast_avatar-22x22.png' class='avatar avatar-22 photo' height='22' width='22' /></a></div>
+                <div class="grid-username"><a href="#">whatbreakfast</a></div>             
+            </div><!-- end .grid-top -->
+
+            <figure class="borderhover">
+                <div class="noimg"></div>            
+            </figure>
+
+            <div class="grid-content">
+                <!-- Category --><div class="article-category"><a href="#">Family Recipes</a> </div>
+                <!-- Title --><a href="#"><h2>Grilled Chicken Breast With Barbecue Glaze</h2></a> <div class="clear"></div>
+                <!-- Date --><div class="qefood-date"><i class="fas fa-clock"></i> October 13, 2021</div>
+                <!-- Comments --><div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">1 </a></div>
+                <div class="clear"></div>
+            </div><!-- end .grid-content --> 
+
+            <div class="grid-bottom">
+                <div class="post-views"> <span><i class="icofont icofont-fire-burn"></i> 7 Views</span></div>               
+                <div class="home-rating"><span class="rating-result"><span class="no-rating-results-text">No ratings yet.</span></span></div>               
+            </div><!-- end .grid-bottom -->
+        </li><!-- end .post -->
+    
+    </ul><!-- end .grid_list -->  
+
+
+    <!-- Pagination -->
+    <div class="clear"></div>
+    <div class="defaultpag">
+        <a href="#" >Older Posts <i class="fas fa-angle-right"></i></a>        
+    </div><!-- end .defaultpag -->
+          
+<div class="clear"></div>
+</div><!-- end .wrap-fullwidth -->
+
+
+
+<!-- Begin Footer -->
+<footer> 
+    <div class="footer-notice">
+        <div class="wrap-footer-small">
+            <div class="footer-notice-left">
+                <h2>Qefood is what you need, to get traffic for your awesome recipe website! </h2>
+                <h4>Don’t have <i class="fas fa-chart-line"></i> traffic Yet? Join Now! And start getting traffic with Qefood! It's free <i class="fas fa-smile-beam"></i> </h4>
+            </div>
+
+            <!-- Upload Button -->
+            <a class="bt more-bt lrm-login" href="add-post.html">
+            <span class="fl"></span><span class="sfl"></span><span class="cross"></span><i></i>
+            <p>Add Post</p>
+            </a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    
+
+    <div class="wrap-middle">
+        <!-- 4 Cols -->
+        <div class="one_fourth">
+
+            <!-- Widget -->
+            <div class="widget widget_media_image">
+                <img width="195" height="74" src="demo/logo-footer.png" alt="img" />
+            </div>
+
+            <!-- Widget -->
+            <div class="widget widget_text">            
+                <div class="textwidget">
+                    <p>Qefood is what you need, to get traffic for your awesome recipe website! Start getting traffic with Qefood! </p>
+                </div>
+            </div>
+
+            <!-- Widget -->            
+            <div class="widget widget_nav_menu">
+                <nav class="menu--adsila">
+                    <div class="menu__item">
+                        <span class="menu__item-name"><i class="fas fa-bolt"></i></span>
+                        <span class="menu__item-label">Useful Links</span>
+                    </div>
+                </nav><div class="clear"></div>
+
+                <div class="menu-footer-link-container">
+                    <ul id="menu-footer-link" class="menu">
+                        <li><a href="#">Top Profile</a></li>
+                        <li><a href="#">Our Shop</a></li>
+                        <li><a href="#">About Qefood</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end .one_fourth -->
+
+
+        <!-- 4 Cols -->
+        <div class="one_fourth">
+            <!-- Widget -->
+            <div class="widget widget_qefood_wp_topposts">
+                <nav class="menu--adsila">
+                    <div class="menu__item">
+                        <span class="menu__item-name"><i class="fas fa-bolt"></i></span>
+                        <span class="menu__item-label">Top Posts</span>
+                    </div>
+                </nav><div class="clear"></div> 
+                
+                <ul class="article_list">
+                    <!-- Post 1 -->
+                    <li class="img-zoom-in">  
+                        <a href="#"><img src="demo/img5-75x75.jpg" class="attachment-qefood-wp-thumbnail-widget-small" alt="img" loading="lazy" /></a>
+                        <div class="an-widget-title" style="margin-left:90px;" >
+                            <a href="#"><h4 class="article-title">Coffee Break, I call this my week lif ...</h4></a>
+                            <div class="qefood-date"><i class="fas fa-clock"></i> October 20, 2021</div>
+                            <div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">6 </a></div>      
+                        </div>
+                    </li>
+
+                    <!-- Post 2 -->
+                    <li class="img-zoom-in">  
+                        <a href="#"><img src="demo/img1-75x75.jpg" class="attachment-qefood-wp-thumbnail-widget-small" alt="img" loading="lazy" /></a>
+                        <div class="an-widget-title" style="margin-left:90px;" >
+                            <a href="#"><h4 class="article-title">Blueberry Chia Pudding Dessert</h4></a>
+                            <div class="qefood-date"><i class="fas fa-clock"></i> February 22, 2021</div>
+                            <div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">5 </a></div>      
+                        </div>
+                    </li>
+
+                    <!-- Post 3 -->
+                    <li class="img-zoom-in">  
+                        <a href="#"><img src="demo/brooke-lark-344291-unsplash-75x75.jpg" class="attachment-qefood-wp-thumbnail-widget-small" alt="img" loading="lazy" /></a>
+                        <div class="an-widget-title" style="margin-left:90px;" >
+                            <a href="#"><h4 class="article-title">Together with red and white bakers twine</h4></a>
+                            <div class="qefood-date"><i class="fas fa-clock"></i> October 23, 2021</div>
+                            <div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">3 </a></div>      
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="clear"></div>
+            </div> 
+        </div><!-- end .one_fourth -->
+
+
+        <!-- 4 Cols -->
+        <div class="one_fourth">
+            <div class="widget widget_qefood_wp_postcat">
+                <!-- Widget -->
+                <nav class="menu--adsila">
+                    <div class="menu__item">
+                        <span class="menu__item-name"><i class="fas fa-bolt"></i></span>
+                        <span class="menu__item-label">Super Easy</span>
+                    </div>
+                </nav><div class="clear"></div> 
+
+                <ul class="article_list">
+                    <!-- Post 1 -->
+                    <li class="img-zoom-in">  
+                        <a href="#"><img src="demo/brooke-lark-of0pMsWApZE-unsplash-75x75.jpg" class="attachment-qefood-wp-thumbnail-widget-small" alt="img" loading="lazy" /></a>
+                        <div class="an-widget-title" style="margin-left:90px;" >
+                            <a href="#"><h4 class="article-title">Amazing Recipe No Bake Cherry Cheesec ..</h4></a>
+                            <div class="qefood-date"><i class="fas fa-clock"></i> October 15, 2021</div>
+                            <div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">1 </a></div>      
+                        </div>
+                    </li>
+
+                    <!-- Post 2 -->
+                    <li class="img-zoom-in">  
+                        <a href="#"><img src="demo/monika-grabkowska-510382-unsplash-75x75.jpg" class="attachment-qefood-wp-thumbnail-widget-small" alt="img" loading="lazy" /></a>
+                        <div class="an-widget-title" style="margin-left:90px;" >
+                            <a href="#"><h4 class="article-title">How to Make Sushi: Easy Step-by-Step  ..</h4></a>
+                            <div class="qefood-date"><i class="fas fa-clock"></i> October 11, 2021</div>
+                            <div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">2 </a></div>      
+                        </div>
+                    </li>
+
+                    <!-- Post 3 -->
+                    <li class="img-zoom-in">  
+                        <a href="#"><img src="demo/monika-grabkowska-646499-unsplash-75x75.jpg" class="attachment-qefood-wp-thumbnail-widget-small" alt="img" loading="lazy" /></a>
+                        <div class="an-widget-title" style="margin-left:90px;" >
+                            <a href="#"><h4 class="article-title">Healthy breakfast is cool, How to Mak ..</h4></a>
+                            <div class="qefood-date"><i class="fas fa-clock"></i> October 10, 2021</div>
+                            <div class="grid-comm"><i class="fas fa-comment-dots"></i> <a href="#">2 </a></div>      
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="clear"></div>
+            </div> 
+        </div><!-- end .one_fourth -->
+
+
+        <!-- 4 Cols -->
+        <div class="one_fourth_last">
+            <!-- Widget -->
+            <div class="widget widget_mc4wp_form_widget">
+                <nav class="menu--adsila">
+                    <div class="menu__item">
+                        <span class="menu__item-name"><i class="fas fa-bolt"></i></span>
+                        <span class="menu__item-label">Newsletter</span>
+                    </div>
+                </nav><div class="clear"></div> 
+
+
+                <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-425" method="post" data-id="425" data-name="Qefood" >
+                    <div class="mc4wp-form-fields">
+                        <div class="subscribe-widget">
+                            <p>Sign up to stay up to date with the latest Themes via email from Anthemes.com</p>
+                            <input type="email" name="EMAIL" placeholder="Your email address" required />
+                            <input type="submit" value="Join Today" />
+                            <p><input name="AGREE_TO_TERMS" type="checkbox" value="1" required=""><span>I have read and agree to the terms.</span></p>  
+                        </div>
+                    </div>
+                </form>
+            </div>  
+        </div><div class="clear"></div><!-- end .one_fourth -->    
+    </div><!-- end .wrap-middle -->
+     
+
+    <div class="wrap-footer">
+        <div class="wrap-footer-middle">
+            <div class="copyright">
+                &#xa9; 2021 Qefood. Template by <a href="https://themeforest.net/user/an-themes/portfolio" target="_blank">An-Themes</a>            
+            </div>
+
+            <!-- Social icons -->
+            <div class="footer-social">
+                <a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook-f"></i></a>          
+                <a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a>                <a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div><!-- end .wrap-footer-middle -->              
+    </div><!-- end .wrap-middle -->
+ 
+    <!-- Go to TOP -->
+    <p id="back-top"><a href="#top">
+        <span><i class="fas fa-chevron-up"></i></span></a>
+    </p><!-- end #back-top -->
+</footer><!-- end #footer -->
+ 
+
+<!-- Footer Theme output -->
+<script src='js/custom.js'></script>
+<script src='js/jquery.sticky-kit.js'></script>
+<script src='js/masonry.min.js'></script>
+
+</body>
+</html>
